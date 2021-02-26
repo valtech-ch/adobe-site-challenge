@@ -1,13 +1,16 @@
 {
-    "compilerOptions": {
-        "target": "es5",
-        "module": "es6",
-        "baseUrl": "../ui.frontend",
-        "removeComments": true,
-        "allowJs": true,
-        "preserveConstEnums": true,
-        "allowSyntheticDefaultImports": true,
-        "sourceMap": true
-    },
-    "include": [ "./src/**/*.ts" ]
+  // "extends": "@valtech-ch/eslint-config-base/tsconfig",
+  "compilerOptions": {
+    "target": "es5",
+    "module": "es6",
+    // "baseUrl": "../ui.frontend",
+    "baseUrl": "./src",
+    "removeComments": true,
+    "allowJs": true,
+    "preserveConstEnums": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true
+  },
+  "include": ["./src/**/*.ts"],
+  "exclude": ["./dist"]
 }

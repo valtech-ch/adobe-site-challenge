@@ -7,9 +7,11 @@ accordance with the terms of the Adobe license agreement accompanying
 it.
 */
 
+/* eslint-disable import/no-unresolved */
+/* eslint-disable import/extensions */
+
 // Stylesheets
 import "./main.scss";
 
-// Javascript or Typescript
-import "./**/*.js";
+// Typescript
 import "./**/*.ts";
