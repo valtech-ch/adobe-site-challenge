@@ -11,7 +11,7 @@ it.
 /* eslint-disable import/extensions */
 
 // Stylesheets
-import "./main.scss";
+import './main.scss'
 
 // Typescript
-import "./**/*.ts";
+import './**/*.ts'
