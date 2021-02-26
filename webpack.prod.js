@@ -7,7 +7,7 @@ accordance with the terms of the Adobe license agreement accompanying
 it.
 */
 
-const merge = require('webpack-merge')
+const { merge } = require('webpack-merge')
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin')
 const TerserPlugin = require('terser-webpack-plugin')
 const common = require('./webpack.common.js')
@@ -41,6 +41,6 @@ module.exports = merge(common, {
       }),
     ],
   },
-  devtool: 'none',
+  devtool: 'source-map',
   performance: { hints: false },
 })

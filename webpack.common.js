@@ -69,17 +69,12 @@ module.exports = {
           {
             loader: 'postcss-loader',
             options: {
-              plugins() {
-                return [require('autoprefixer')]
+              postcssOptions: {
+                plugins: ['autoprefixer'],
               },
             },
           },
-          {
-            loader: 'sass-loader',
-            options: {
-              url: false,
-            },
-          },
+          'sass-loader',
           {
             loader: 'webpack-import-glob-loader',
             options: {
@@ -105,12 +100,14 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: 'css/theme.css',
     }),
-    new CopyWebpackPlugin([
-      {
-        from: path.resolve(__dirname, SOURCE_ROOT + '/resources'),
-        to: './resources',
-      },
-    ]),
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: path.resolve(__dirname, SOURCE_ROOT + '/resources'),
+          to: './resources',
+        },
+      ],
+    }),
     new webpack.optimize.LimitChunkCountPlugin({
       maxChunks: 1,
     }),
