@@ -1,0 +1,58 @@
+#parallax-wrapper.cmp-container > .container.responsivegrid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 420px;
+
+  .aem-AuthorLayer-Edit & {
+    display: initial;
+    height: initial;
+  }
+}
+
+#parallax-container.cmp-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  perspective: 8px;
+  perspective-origin: 0%;
+  display: flex;
+
+  .aem-AuthorLayer-Edit & {
+    display: initial;
+    overflow: initial;
+  }
+}
+
+#parallax-container > *:first-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateZ(0px);
+
+  .aem-AuthorLayer-Edit & {
+    position: initial;
+    transform: initial;
+  }
+}
+
+#parallax-container > *:nth-child(2) {
+  margin-top: auto;
+  margin-bottom: 50px;
+
+  transform-origin: 0;
+  transform: translateZ(3px) scale(0.625);
+
+  .aem-AuthorLayer-Edit & {
+    margin: initial;
+    transform: initial;
+  }
+
+  /* Uncomment the code below to see the difference the scale property makes! */
+  /* transform: translateZ(3px);
+  /* transform: translateZ(0) scale(1); */
+}
