@@ -1,2 +1,13 @@
-.cmp-text {}
-.cmp-text__paragraph {}
+.text {
+  width: 100%;
+}
+
+.cmp-text {
+  display: flex;
+  justify-content: center;
+  font-size: 5rem;
+  color: white;
+  width: 100%;
+}
+.cmp-text__paragraph {
+}

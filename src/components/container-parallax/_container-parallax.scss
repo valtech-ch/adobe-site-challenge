@@ -1,13 +1,19 @@
+$parallax-perspective: 8px;
+
+@function parallax-scale-factor($z-distance) {
+  @return (($parallax-perspective) - $z-distance) / $parallax-perspective;
+}
+
 #parallax-wrapper.cmp-container > .container.responsivegrid {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 420px;
+  height: 480px;
 
-  .aem-AuthorLayer-Edit & {
-    display: initial;
-    height: initial;
-  }
+  // .aem-AuthorLayer-Edit & {
+  //   display: initial;
+  //   height: initial;
+  // }
 }
 
 #parallax-container.cmp-container {
@@ -16,14 +22,25 @@
   height: 100%;
   overflow-x: hidden;
   overflow-y: scroll;
-  perspective: 8px;
+  perspective: $parallax-perspective;
   perspective-origin: 0%;
   display: flex;
+  flex-direction: column;
 
-  .aem-AuthorLayer-Edit & {
-    display: initial;
-    overflow: initial;
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  & ::-webkit-scrollbar {
+    display: none;
   }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+
+  // .aem-AuthorLayer-Edit & {
+  //   display: initial;
+  //   overflow: initial;
+  // }
 }
 
 #parallax-container > *:first-child {
@@ -32,27 +49,34 @@
   left: 0;
   width: 100%;
   height: 100%;
-  transform: translateZ(0px);
+  transform: translateZ(0px) scale(1);
 
-  .aem-AuthorLayer-Edit & {
-    position: initial;
-    transform: initial;
-  }
+  // .aem-AuthorLayer-Edit & {
+  //   position: initial;
+  //   transform: initial;
+  // }
 }
 
-#parallax-container > *:nth-child(2) {
+#parallax-container > *:not(:first-child) {
   margin-top: auto;
-  margin-bottom: 50px;
 
   transform-origin: 0;
-  transform: translateZ(3px) scale(0.625);
 
-  .aem-AuthorLayer-Edit & {
-    margin: initial;
-    transform: initial;
-  }
+  // .aem-AuthorLayer-Edit & {
+  //   margin: initial;
+  //   transform: initial;
+  // }
 
   /* Uncomment the code below to see the difference the scale property makes! */
   /* transform: translateZ(3px);
   /* transform: translateZ(0) scale(1); */
+}
+
+#parallax-container > *:nth-child(2) {
+  margin-bottom: 50px;
+  transform: translateZ(2px) scale(0.75);
+}
+#parallax-container > *:nth-child(3) {
+  margin-bottom: 150px;
+  transform: translateZ(5px) scale(0.375);
 }
