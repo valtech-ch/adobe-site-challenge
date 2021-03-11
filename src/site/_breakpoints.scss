@@ -1,0 +1,41 @@
+//== Breakpoints
+$screen-sm-min: 420px;
+$screen-md-min: 760px;
+$screen-lg-min: 1280px;
+$screen-xl-min: 1440px;
+
+// Devices above the minimum size
+@mixin sm {
+  @media (min-width: #{$screen-sm-min}) {
+    @content;
+  }
+}
+
+// Medium Devices
+@mixin md {
+  @media (min-width: #{$screen-md-min}) {
+    @content;
+  }
+}
+
+// Large Screens
+@mixin lg {
+  @media (min-width: #{$screen-lg-min}) {
+    @content;
+  }
+}
+
+// Extra Large Screens
+@mixin xl {
+  @media (min-width: #{$screen-xl-min}) {
+    @content;
+  }
+}
+
+// Custom Breakpoint Size
+// Usage: @include break(900) { /*styles*/ } will create a breakpoint for 900px
+@mixin break($screen) {
+  @media (min-width: $screen+'px') {
+    @content;
+  }
+}
