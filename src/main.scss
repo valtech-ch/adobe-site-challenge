@@ -1,8 +1,12 @@
 @import '~normalize.css/normalize.css';
 @import './resources/fonts/*.ttf';
+@import './site/colors.scss';
+@import './site/breakpoints';
+@import './site/fonts';
 @import './site/variables';
 @import './site/grid';
 @import './site/base';
+@import './site/icons';
 @import './components/*/*.scss';
 
 body {
