@@ -17,12 +17,11 @@
 .cmp-navigation__group {
   list-style-type: none;
   padding: 0;
+  margin: 0;
   display: flex;
   justify-content: center;
+  margin-top: 15px;
 }
-.cmp-navigation__item {}
-.cmp-navigation__item--active {}
-// .cmp-navigation__item--level-0 {}
 .cmp-navigation__item-link {
   text-decoration: none;
   color:$color-black;
@@ -47,10 +46,12 @@
   display: flex;
   flex-direction: column;
   margin: 5px 0 0 0;
+  line-height: 1;
 }
 .cmp-languagenavigation__item {
   padding: 8px;
   align-self: end;
+  display: flex;
 }
 .cmp-navigation__item--active {
   position: relative;
@@ -89,6 +90,9 @@
 }
 
 .cmp-experiencefragment--footer {
+  padding-top: 46px;
+  font-size:18px;
+  background-color: $color-black;
   .cmp-image {
     text-align: center;
   }
@@ -97,5 +101,13 @@
   }
   .cmp-navigation__group {
     margin: 50px auto;
+  }
+  .cmp-text {
+    margin-top: 26px;
+    margin-bottom: 50px;
+  }
+  p {
+    margin: 0;
+    line-height: 1.2;
   }
 }
