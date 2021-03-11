@@ -1,14 +1,59 @@
-.cmp-carousel {}
-.cmp-carousel__content {}
-.cmp-carousel__item {}
-.cmp-carousel__actions {}
-.cmp-carousel__action {}
-.cmp-carousel__action--disabled {}
-.cmp-carousel__action--previous {}
-.cmp-carousel__action--next {}
-.cmp-carousel__action--pause {}
-.cmp-carousel__action--play {}
-.cmp-carousel__action-icon {}
-.cmp-carousel__action-text {}
-.cmp-carousel__indicators {}
-.cmp-carousel__indicator {}
+.cmp-carousel {
+}
+.cmp-carousel__content {
+}
+.cmp-carousel__item {
+  .cmp-teaser__content {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 80%;
+  }
+}
+.cmp-carousel__actions {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 90%;
+  top: 50%;
+  left: 5%;
+}
+.cmp-carousel__action {
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  width: 26px;
+  height: 45px;
+}
+.cmp-carousel__action--disabled {
+}
+.cmp-carousel__action--previous {
+  background-image: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2226.398%22%20height%3D%2245.018%22%20viewBox%3D%220%200%2026.398%2045.018%22%3E%0A%20%20%3Cpath%20id%3D%22Slider_Arrow_-_Left%22%20data-name%3D%22Slider%20Arrow%20-%20Left%22%20d%3D%22M100.2%2C336.243l20-20.033a2.46%2C2.46%2C0%2C0%2C1%2C3.476%2C0l1.472%2C1.475a2.47%2C2.47%2C0%2C0%2C1%2C0%2C3.483l-16.79%2C16.823%2C16.809%2C16.841a2.471%2C2.471%2C0%2C0%2C1%2C0%2C3.483l-1.472%2C1.475a2.461%2C2.461%2C0%2C0%2C1-3.477%2C0L100.2%2C339.738a2.488%2C2.488%2C0%2C0%2C1%2C0-3.495Z%22%20transform%3D%22translate(-99.484%20-315.491)%22%20fill%3D%22%23fff%22%2F%3E%0A%3C%2Fsvg%3E');
+}
+.cmp-carousel__action--next {
+  background-image: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2226.397%22%20height%3D%2245.018%22%20viewBox%3D%220%200%2026.397%2045.018%22%3E%0A%20%20%3Cpath%20id%3D%22Slider_Arrow_-_Right%22%20data-name%3D%22Slider%20Arrow%20-%20Right%22%20d%3D%22M1822.768%2C336.243l-20-20.033a2.46%2C2.46%2C0%2C0%2C0-3.477%2C0l-1.473%2C1.475a2.47%2C2.47%2C0%2C0%2C0%2C0%2C3.483l16.791%2C16.823-16.809%2C16.841a2.47%2C2.47%2C0%2C0%2C0%2C0%2C3.483l1.472%2C1.475a2.46%2C2.46%2C0%2C0%2C0%2C3.476%2C0l20.015-20.052a2.489%2C2.489%2C0%2C0%2C0%2C0-3.495Z%22%20transform%3D%22translate(-1797.087%20-315.491)%22%20fill%3D%22%23fff%22%2F%3E%0A%3C%2Fsvg%3E');
+}
+.cmp-carousel__action--pause {
+}
+.cmp-carousel__action--play {
+}
+.cmp-carousel__action-icon {
+}
+.cmp-carousel__action-text {
+  display: none;
+}
+.cmp-carousel__indicators {
+  position: absolute;
+  bottom: 4rem;
+  width: 100%;
+}
+.cmp-carousel__indicator {
+  background-color: transparent;
+  background-image: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22203.96%22%20height%3D%2220%22%20viewBox%3D%220%200%20203.96%2020%22%3E%0A%20%20%3Cg%20id%3D%22Slider_-_Dots%22%20data-name%3D%22Slider%20-%20Dots%22%20transform%3D%22translate(-860.32%20-545.5)%22%3E%0A%20%20%20%20%3Cg%20id%3D%22Inactive_Slide_Right%22%20data-name%3D%22Inactive%20Slide%20Right%22%20transform%3D%22translate(1044.28%20545.5)%22%20fill%3D%22none%22%20stroke%3D%22%23fff%22%20stroke-width%3D%223.15%22%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%2210%22%20cy%3D%2210%22%20r%3D%2210%22%20stroke%3D%22none%22%2F%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%2210%22%20cy%3D%2210%22%20r%3D%228.425%22%20fill%3D%22none%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ccircle%20id%3D%22Active_Slide%22%20data-name%3D%22Active%20Slide%22%20cx%3D%2210%22%20cy%3D%2210%22%20r%3D%2210%22%20transform%3D%22translate(952.3%20545.5)%22%20fill%3D%22%23fff%22%2F%3E%0A%20%20%20%20%3Cg%20id%3D%22Inactive_Slide_Left%22%20data-name%3D%22Inactive%20Slide%20Left%22%20transform%3D%22translate(860.32%20545.5)%22%20fill%3D%22none%22%20stroke%3D%22%23fff%22%20stroke-width%3D%223.15%22%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%2210%22%20cy%3D%2210%22%20r%3D%2210%22%20stroke%3D%22none%22%2F%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%2210%22%20cy%3D%2210%22%20r%3D%228.425%22%20fill%3D%22none%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E');
+  margin: 0 30px;
+  width: 20px;
+  height: 20px;
+}
+.cmp-carousel__indicator--active {
+  background-color: #ffffff;
+}
