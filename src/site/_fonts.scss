@@ -6,15 +6,15 @@ $font-family-semi: 'Poppins-SemiBold', sans-serif;
 $font-family-bold: 'Poppins-Bold', sans-serif;
 
 @mixin fluid-font-size {
-  font-size: 24px;
+  font-size: 16px;
   line-height: 1.15rem;
 
   @include sm {
-    font-size: calc(24px + 8 * ((100vw - 420px) / 480));
+    font-size: calc(16px + 8 * ((100vw - 420px) / 480));
   }
 
   @include xl {
-    font-size: 32px;
+    font-size: 24px;
   }
 }
 
