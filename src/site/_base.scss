@@ -1,19 +1,30 @@
-
 //== Base
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+// @font-face {
+//   font-family: 'Poppins';
+//   font-style: normal;
+//   font-weight: 400;
+//   src: url('../resources/fonts/Poppins-Regular') format('ttf');
+// }
+// @font-face {
+//   font-family: 'Poppins';
+//   font-style: bold;
+//   font-weight: 700;
+//   src: url('../resources/fonts/Poppins-Regular') format('ttf');
+// }
 
 html,
 body {
-    margin: 0;
-    font-size:   $font-size;
-    font-family: $font-family;
-    line-height: $font-height;
-    color:       $color-foreground;
-    background:  $color-background;
+  margin: 0;
+  font-size: $font-size;
+  font-family: $font-family;
+  line-height: $font-height;
+  color: $color-foreground;
+  background: $color-background;
 }
 
-
 a {
-    color: $color-link;
+  color: $color-link;
 }
 
 button,
@@ -21,19 +32,19 @@ input,
 optgroup,
 select,
 textarea {
-    font: inherit;
+  font: inherit;
 }
 
 //== Grid
 
 // Default breakpoint
 .aem-Grid {
-    @include generate-grid(default, $max_col);
+  @include generate-grid(default, $max_col);
 }
 
 // Phone breakpoint
 @media (max-width: 768px) {
-    .aem-Grid {
-        @include generate-grid(phone, $max_col);
-    }
+  .aem-Grid {
+    @include generate-grid(phone, $max_col);
+  }
 }
