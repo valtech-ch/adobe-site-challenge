@@ -9,18 +9,29 @@
   .cmp-image__image {
     width: 289px;
     height: 44px;
-    max-width: 100%;
+  }
+  .cmp-container {
+    > div {
+      display: flex;
+      align-items: baseline;
+    }
   }
 }
 
 .cmp-navigation {}
 .cmp-navigation__group {
+  display: none;
   list-style-type: none;
   padding: 0;
   margin: 0;
-  display: flex;
   justify-content: center;
   margin-top: 15px;
+  @include md {
+    display: flex;
+  }
+}
+.cmp-navigation__item {
+  line-height: 1.2;
 }
 .cmp-navigation__item-link {
   text-decoration: none;
@@ -32,6 +43,7 @@
   font-family:$font-family;
   font-weight: 600;
   padding: 0 30px;
+  display: flex;
   .cmp-experiencefragment--footer & {
     color:$color-white;
   }
@@ -88,6 +100,16 @@
   font-family:$font-family;
   font-weight: 500;
 }
+.button {
+  display: flex;
+  width:auto !important;
+  h1 {
+    display: none;
+  }
+  @include md {
+    display: none;
+  }
+}
 
 .cmp-experiencefragment--footer {
   padding-top: 46px;
@@ -109,5 +131,31 @@
   p {
     margin: 0;
     line-height: 1.2;
+  }
+  .cmp-navigation__group  {
+    flex-direction: column;
+    @include md {
+      flex-direction: row;
+    }
+  }
+
+  #social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+    flex-direction: column;
+    @include md {
+      flex-direction: row;
+    }
+    .image {
+      display: flex;
+      justify-content: center;
+      padding: 0 35px;
+      margin-bottom: 20px;
+      @include md {
+        margin-bottom: 0;
+      }
+    }
   }
 }
