@@ -14,13 +14,16 @@
     > div {
       display: flex;
       align-items: baseline;
+      flex-direction: column;
+      @include md {
+        flex-direction: row;
+      }
     }
   }
 }
 
 .cmp-navigation {}
 .cmp-navigation__group {
-  display: none;
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -42,8 +45,11 @@
   letter-spacing: 1.35px;
   font-family:$font-family;
   font-weight: 600;
-  padding: 0 30px;
+  padding: 10px 0;
   display: flex;
+  @include md {
+    padding: 0 30px;
+  }
   .cmp-experiencefragment--footer & {
     color:$color-white;
   }
@@ -101,6 +107,9 @@
   font-weight: 500;
 }
 .button {
+  position: absolute;
+  right:20px;
+  top:20px;
   display: flex;
   width:auto !important;
   h1 {
