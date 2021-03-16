@@ -20,6 +20,19 @@
       }
     }
   }
+  .button {
+    position: absolute;
+    right:20px;
+    top:20px;
+    display: flex;
+    width:auto !important;
+    h1 {
+      display: none;
+    }
+    @include md {
+      display: none;
+    }
+  }
 }
 
 .cmp-navigation {}
@@ -50,26 +63,36 @@
   @include md {
     padding: 0 30px;
   }
-  .cmp-experiencefragment--footer & {
-    color:$color-white;
-  }
 }
 .cmp-languagenavigation {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
+  @include md {
+    justify-content: flex-end;
+  }
 }
 .cmp-languagenavigation__group {
   list-style-type: none;
   padding: 0;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin: 5px 0 0 0;
   line-height: 1;
+  @include md {
+    flex-direction: column;
+  }
 }
 .cmp-languagenavigation__item {
   padding: 8px;
   align-self: end;
   display: flex;
+  &:not(.cmp-languagenavigation__item--active ){
+    margin-top: 3px;
+    @include md {
+      margin-top: 0;
+    }
+}
+
 }
 .cmp-navigation__item--active {
   position: relative;
@@ -80,11 +103,17 @@
     margin: 0 auto;
     position: absolute;
     z-index: -1;
-    bottom: 4px;
-    left: 30px;
-    width: 80%;
+    bottom: 12px;
+    left: 0;
+    width: 30%;
+    @include md {
+      bottom: 4px;
+      left: 30px;
+      width: 80%;
+    }
     .cmp-experiencefragment--footer & {
       border-color:$color-medium-gray;
+      left: 30px;
     }
   }
 }
@@ -106,24 +135,14 @@
   font-family:$font-family;
   font-weight: 500;
 }
-.button {
-  position: absolute;
-  right:20px;
-  top:20px;
-  display: flex;
-  width:auto !important;
-  h1 {
-    display: none;
-  }
-  @include md {
-    display: none;
-  }
-}
 
 .cmp-experiencefragment--footer {
   padding-top: 46px;
   font-size:18px;
   background-color: $color-black;
+  .xf-content-height {
+    margin: 0;
+  }
   .cmp-image {
     text-align: center;
   }
@@ -145,6 +164,13 @@
     flex-direction: column;
     @include md {
       flex-direction: row;
+    }
+  }
+  .cmp-navigation__item-link {
+    color:$color-white;
+    padding: 10px 30px;
+    @include md {
+      padding: 0 30px;
     }
   }
 
