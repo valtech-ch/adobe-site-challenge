@@ -1,45 +1,64 @@
-.cmp-teaser {
-  align-items: center;
-  display: flex;
-  height: 665px;
-  overflow: hidden;
-  position: relative;
-}
-.cmp-teaser__image {
-  min-width: 100%;
-  position: absolute;
-
-  & img {
-    min-width: 100%;
-    width: initial;
+.cmp-carousel__item {
+  .cmp-teaser {
   }
-}
-.cmp-teaser__content {
-  position: relative;
-  width: 100%;
-}
-.cmp-teaser__pretitle {
-  color: white;
-  font-size: $font-size-sm;
-  margin-left: 10%;
-  text-transform: uppercase;
-}
-.cmp-teaser__title {
-  font-size: $font-size-lg;
-  margin-left: 12%;
-  margin-top: 5px;
-  color: white;
-  text-align: left;
-  letter-spacing: -2.4px;
-  text-shadow: 0px 6px 0px #25262780;
-}
-.cmp-teaser__title-link {
-  text-decoration: none;
-  color: inherit;
-}
-.cmp-teaser__description {
-}
-.cmp-teaser__action-container {
-}
-.cmp-teaser__action-link {
+  .cmp-teaser__image {
+    & img {
+      width: 100%;
+    }
+  }
+  .cmp-teaser__content {
+    position: absolute;
+    top: 44%;
+    left: 5%;
+    width: 90%;
+  }
+  .cmp-teaser__pretitle {
+    color: white;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 1.6px;
+    margin-left: 10%;
+    text-transform: uppercase;
+  }
+  .cmp-teaser__title {
+    color: white;
+    font-size: 48px;
+    line-height: 44px;
+    letter-spacing: -2.4px;
+    margin-left: 12%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    text-shadow: 0px 6px 0px #25262780;
+    max-width: 800px;
+  }
+  .cmp-teaser__title-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  .cmp-teaser__description {
+  }
+  .cmp-teaser__action-container {
+    margin-left: 12%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 2.5px solid #090909;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 3px solid #090909;
+    border-radius: 16px;
+    width: 180px;
+    height: 32px;
+    font-family: $font-family-bold;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 1.6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cmp-teaser__action-link {
+    letter-spacing: 1.6px;
+    color: #090909;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
 }
