@@ -1,0 +1,21 @@
+.cmp-experiencefragment--footer {
+  .cmp-navigation__group {
+    margin: 50px auto;
+    flex-direction: column;
+    @include md {
+      flex-direction: row;
+    }
+  }
+  .cmp-navigation__item--active {
+    &:before {
+      border: 0;
+    }
+  }
+  .cmp-navigation__item-link {
+    color: $color-white;
+    padding: 10px 30px;
+    @include md {
+      padding: 0 30px;
+    }
+  }
+}
