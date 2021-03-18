@@ -33,35 +33,15 @@
   text-decoration: none;
   color: inherit;
 }
-.cmp-teaser__action-container {
-}
-.cmp-teaser__action-link {
-  background: #ffffff 0% 0% no-repeat padding-box;
-  border: 3px solid #090909;
-  border-radius: 100px;
-  width: 180px;
-  height: 32px;
-  font-family: $font-family-bold;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 27px;
-  letter-spacing: 1.6px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  color: #090909;
-  text-transform: uppercase;
-  text-decoration: none;
-}
 .cmp-teaser__description {
 }
 .cmp-teaser__action-container {
   margin-left: 2%;
+  display: flex;
 }
 .cmp-teaser__action-link {
-  color: #090909;
-  text-transform: uppercase;
+  @include button;
+  @include button-text;
   text-decoration: none;
 }
 
@@ -105,14 +85,15 @@
   .cmp-teaser__action-container {
     position: relative;
     top: 100px;
-    display: flex;
     margin-left: 0;
   }
   .cmp-teaser__action-link {
+    @include button-primary;
+    @include button-text-primary;
     margin: 0 15px;
   }
   .cmp-teaser__action-link:first-child {
-    border: 3px solid #090909;
-    background: transparent;
+    @include button-transparent;
+    @include button-text-transparent;
   }
 }
