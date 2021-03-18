@@ -1,5 +1,8 @@
 .cmp-tabs {}
-.cmp-tabs__tablist {}
+.cmp-tabs__tablist {
+    display: flex;
+    justify-content: center;
+}
 .cmp-tabs__tab {
     height: 68px;
     width: 260px;
