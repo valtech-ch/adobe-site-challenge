@@ -1,4 +1,29 @@
-.cmp-button {}
-.cmp-button__text {}
-.cmp-button__icon {}
-//.cmp-button__icon--myIcon {}
+.cmp-button {
+  border: 3px solid #090909;
+  border-radius: 100px;
+  padding: 0 40px;
+  background-color: #ffffff;
+}
+.cmp-button__text {
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 27px;
+  text-transform: uppercase;
+  font-family: $font-family-bold;
+  font-weight: bold;
+}
+.cmp-button__icon {
+}
+.cmp-button--primary {
+  .cmp-button {
+    background-color: #090909;
+  }
+  .cmp-button__text {
+    color: #fff;
+  }
+}
+.cmp-button--transparent {
+  .cmp-button {
+    background-color: transparent;
+  }
+}
