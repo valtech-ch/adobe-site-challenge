@@ -1,5 +1,44 @@
-.cmp-list {}
-.cmp-list__item {}
-.cmp-list__item-link {}
-.cmp-list__item-title {}
-.cmp-list__item-date {}
+@mixin font {
+  font-size: 21px;
+  letter-spacing: 0.53px;
+  line-height: 52.16px;
+  font-family: $font-family-bold;
+  font-weight: bold;
+}
+
+.cmp-list {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.cmp-list__item {
+  position: relative;
+  &:not(:first-child) {
+    &::after {
+      content: '-';
+      @include font;
+      font-family: $font-family;
+      position: absolute;
+      top: 0;
+      color: #00bbf9;
+    }
+  }
+}
+.cmp-list__item-link {
+}
+.cmp-list__item-title {
+  @include font;
+  white-space: nowrap;
+  margin: 0 20px 0 25px;
+  text-transform: uppercase;
+}
+.cmp-list__item-date {
+}
+
+// light
+.cmp-list--light {
+  .cmp-list__item-title {
+    color: #fff;
+  }
+}
