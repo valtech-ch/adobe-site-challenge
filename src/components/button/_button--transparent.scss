@@ -1,0 +1,20 @@
+@import './button.scss';
+
+@mixin button-transparent {
+  @include button();
+  background-color: transparent;
+}
+
+@mixin button-text-transparent {
+  @include button-text();
+  color: #090909;
+}
+
+.cmp-button--transparent {
+  .cmp-button {
+    @include button-transparent();
+  }
+  .cmp-button__text {
+    @include button-text-transparent();
+  }
+}

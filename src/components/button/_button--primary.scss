@@ -1,0 +1,19 @@
+@import './button.scss';
+
+@mixin button-primary {
+  @include button();
+  background-color: #090909;
+}
+@mixin button-text-primary {
+  @include button-text();
+  color: #fff;
+}
+
+.cmp-button--primary {
+  .cmp-button {
+    @include button-primary();
+  }
+  .cmp-button__text {
+    @include button-text-primary();
+  }
+}
