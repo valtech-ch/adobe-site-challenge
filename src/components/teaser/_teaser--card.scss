@@ -1,0 +1,28 @@
+.cmp-teaser--card {
+  .cmp-teaser {
+  }
+  .cmp-teaser__content {
+  }
+  .cmp-teaser__title {
+    font-size: 30px;
+    letter-spacing: -1.5px;
+    line-height: 44px;
+    color: #090909;
+    font-family: $font-family-bold;
+    font-weight: bold;
+  }
+  .cmp-teaser__title-link {
+    color: inherit;
+    text-decoration: none;
+  }
+  .cmp-teaser__description {
+    display: none;
+  }
+  .cmp-teaser__action-container {
+    display: flex;
+  }
+  .cmp-teaser__action-link {
+    @include button;
+    @include button-text;
+  }
+}
