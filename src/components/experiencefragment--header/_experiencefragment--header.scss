@@ -22,14 +22,4 @@
       }
     }
   }
-
-  #navigation-main {
-    display: none;
-    @include md {
-      display: block;
-    }
-    &.cmp-navigation_open {
-      display: block;
-    }
-  }
 }

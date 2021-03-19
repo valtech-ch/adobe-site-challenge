@@ -48,3 +48,7 @@ textarea {
     @include generate-grid(phone, $max_col);
   }
 }
+
+.hidden {
+  display: none;
+}
