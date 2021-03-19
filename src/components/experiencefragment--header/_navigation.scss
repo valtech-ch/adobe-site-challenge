@@ -1,23 +1,19 @@
+// navigation-mobile is CLOSED
 .cmp-experiencefragment--header {
-  #navigation-main {
-    display: none;
+  .navigation {
+    display: none !important;
     @include md {
-      display: block;
-    }
-    &.cmp-navigation_open {
-      display: block;
+      display: initial !important;
     }
   }
+}
 
-  #navigation-main.visible {
-    display: initial;
-    background-color: $color-white;
-    position: absolute;
-    left: 0;
-    right: 0;
-    height: 100%;
-    z-index: 20;
-    padding-top: 20%;
+// navigation-mobile is OPEN
+.cmp-experiencefragment--header.navigation-mobile--open {
+  .navigation {
+    display: block !important;
+    width: 100% !important;
+    margin: 20px 0;
 
     .cmp-navigation__group {
       display: flex;

@@ -1,0 +1,26 @@
+// navigation-mobile is CLOSED
+.cmp-experiencefragment--header {
+  .languagenavigation {
+    display: none !important;
+    @include md {
+      display: initial !important;
+    }
+  }
+}
+
+// navigation-mobile is OPEN
+.cmp-experiencefragment--header.navigation-mobile--open {
+  .languagenavigation {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center;
+
+    .cmp-languagenavigation__item {
+      margin: 0 20px;
+    }
+
+    .cmp-languagenavigation__item-link {
+      font-size: 30px;
+    }
+  }
+}
