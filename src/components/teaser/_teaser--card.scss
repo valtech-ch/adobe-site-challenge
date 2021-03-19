@@ -1,8 +1,4 @@
 .cmp-teaser--card {
-  width: 100%;
-  @include md {
-    width: 25%;
-  }
   .cmp-teaser {
   }
   .cmp-teaser__content {
@@ -11,7 +7,7 @@
     font-size: 30px;
     letter-spacing: -1.5px;
     line-height: 44px;
-    color: #090909;
+    color: $color-medium-gray;
     font-family: $font-family-bold;
     font-weight: bold;
   }
