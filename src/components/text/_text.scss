@@ -1,5 +1,6 @@
 .cmp-text {
-  color: white;
+  color: $color-foreground;
 }
 .cmp-text__paragraph {
+  margin: $spacing 0;
 }
