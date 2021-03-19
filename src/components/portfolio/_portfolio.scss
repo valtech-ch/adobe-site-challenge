@@ -1,0 +1,59 @@
+.portfolio {
+  .cmp-title__text {
+    margin-top: 0;
+    line-height: 1.2;
+  }
+  .portfolio_subtitle {
+    .cmp-text {
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 50px;
+      font-family: 'Poppins', sans-serif;
+      p {
+        margin: 0;
+        font-size: 24px;
+        letter-spacing: 1.2px;
+      }
+    }
+  }
+  .separator {
+    margin-bottom: 50px;
+  }
+  .image {
+    width:100%;
+  }
+  .cmp-image__image {
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
+    @include md {
+      height: 100vh;
+    }
+  }
+  .cmp-contentfragmentlist {
+    padding-top: 20px;
+    @include md {
+      padding-top: 190px;
+    }
+    .cmp-contentfragment__title {
+      line-height: 1;
+      padding: 3px 10px;
+      @include lg {
+        font-size: 16px;
+      }
+    }
+  }
+  .cmp-text {
+    line-height: 1.2;
+    max-width: 80%;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    p {
+      font-size: 16px;
+      letter-spacing: 0;
+      @include md {
+        font-size: 22px;
+      }
+    }
+  }
+}
