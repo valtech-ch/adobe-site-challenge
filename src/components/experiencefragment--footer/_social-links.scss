@@ -1,0 +1,22 @@
+//== XF Footer style, used on page template
+.cmp-experiencefragment--footer {
+  #social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+    flex-direction: column;
+    @include md {
+      flex-direction: row;
+    }
+    .image {
+      display: flex;
+      justify-content: center;
+      padding: 0 35px;
+      margin-bottom: 20px;
+      @include md {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

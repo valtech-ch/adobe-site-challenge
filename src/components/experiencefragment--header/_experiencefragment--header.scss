@@ -1,0 +1,35 @@
+//== XF Header style, used on page template
+.cmp-experiencefragment--header {
+  margin: 10px 10px 0 10px;
+  @include lg {
+    margin: 56px 95px 0 95px;
+  }
+  .xf-content-height {
+    margin: 0;
+  }
+  .cmp-image__image {
+    width: 289px;
+    height: 44px;
+    max-width: 100%;
+  }
+  .cmp-container {
+    > div {
+      display: flex;
+      align-items: baseline;
+      flex-direction: column;
+      @include md {
+        flex-direction: row;
+      }
+    }
+  }
+
+  #navigation-main {
+    display: none;
+    @include md {
+      display: block;
+    }
+    &.cmp-navigation_open {
+      display: block;
+    }
+  }
+}

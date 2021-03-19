@@ -1,0 +1,24 @@
+//== XF Header style, used on page template
+.cmp-experiencefragment--header {
+  .button {
+    @include md {
+      display: none;
+    }
+    #button-menu {
+      padding: 10px 8px;
+      font-size: 30px;
+      border-radius: 8px;
+      position: absolute;
+      right: 15px;
+      top: 15px;
+      &:before {
+        content: '\2630';
+      }
+      &.navigation-open {
+        &:before {
+          content: '\2715';
+        }
+      }
+    }
+  }
+}
