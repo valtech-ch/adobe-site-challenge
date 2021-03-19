@@ -1,0 +1,43 @@
+.cmp-experiencefragment--header {
+  #navigation-main {
+    display: none;
+    @include md {
+      display: block;
+    }
+    &.cmp-navigation_open {
+      display: block;
+    }
+  }
+
+  #navigation-main.visible {
+    display: initial;
+    background-color: $color-white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100%;
+    z-index: 20;
+    padding-top: 20%;
+
+    .cmp-navigation__group {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .cmp-navigation__item {
+      margin-bottom: 16px;
+    }
+
+    .cmp-navigation__item--active {
+      &::before {
+        width: 100%;
+      }
+    }
+
+    .cmp-navigation__item-link {
+      font-size: 40px;
+    }
+  }
+}

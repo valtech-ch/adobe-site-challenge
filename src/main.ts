@@ -14,4 +14,4 @@ it.
 import './main.scss'
 
 // Typescript
-// import './**/*.ts'
+import './components/**/*.ts'
