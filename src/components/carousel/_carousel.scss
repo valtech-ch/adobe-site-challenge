@@ -48,8 +48,11 @@
 }
 .cmp-carousel__indicators {
   position: absolute;
-  bottom: 4rem;
+  bottom: 1rem;
   width: 100%;
+  @include md {
+    bottom: 4rem;
+  }
 }
 .cmp-carousel__indicator {
   background-color: transparent;
