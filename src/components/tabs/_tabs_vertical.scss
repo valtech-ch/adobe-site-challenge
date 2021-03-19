@@ -1,0 +1,16 @@
+.tabs-vertical{
+  .cmp-tabs {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  ol, ul {
+    list-style: none;
+  }
+  .cmp-tabs__tablist {
+    width: 33.3%;
+  }
+  .cmp-tabs__tabpanel {
+    width: 66.6%;
+    align-self: center;
+  }
+}

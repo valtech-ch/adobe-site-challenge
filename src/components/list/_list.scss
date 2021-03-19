@@ -1,9 +1,14 @@
 @mixin font {
-  font-size: 21px;
+  font-size: 16px;
   letter-spacing: 0.53px;
-  line-height: 52.16px;
-  font-family: $font-family-bold;
+  line-height: 1.4;
+  font-family: $font-family;
   font-weight: bold;
+  @include md {
+    font-size: 21px;
+    letter-spacing: 0.53px;
+    line-height: 52.16px;
+  }
 }
 
 .cmp-list {
@@ -14,6 +19,10 @@
 
 .cmp-list__item {
   position: relative;
+  margin: 10px 0;
+  @include md {
+    margin: 0;
+  }
   &:not(:first-child) {
     &::after {
       content: '-';
@@ -21,11 +30,12 @@
       font-family: $font-family;
       position: absolute;
       top: 0;
-      color: #00bbf9;
+      color: $color-blue;
     }
   }
 }
 .cmp-list__item-link {
+  text-decoration: none;
 }
 .cmp-list__item-title {
   @include font;
