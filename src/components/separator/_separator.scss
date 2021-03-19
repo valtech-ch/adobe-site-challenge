@@ -1,2 +1,9 @@
-.cmp-separator {}
-.cmp-separator__horizontal-rule {}
+.cmp-separator {
+}
+.cmp-separator__horizontal-rule {
+  width: 4rem;
+  height: 2px;
+  background-color: $color-black;
+  border: none;
+  margin: 0 $spacing--lg;
+}

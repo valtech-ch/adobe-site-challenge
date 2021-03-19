@@ -1,1 +1,7 @@
-.cmp-contentfragmentlist {}
+.cmp-contentfragmentlist--music-styles .cmp-contentfragmentlist {
+  padding: 0;
+  margin: $spacing $spacing--lg;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
