@@ -14,7 +14,8 @@ Make general max-width 1920px
   max-width: 1920px;
 }
 
-.full-width {
+.aem-Grid.aem-Grid--default--12
+  > .aem-GridColumn.aem-GridColumn--default--12.full-width {
   left: 50%;
   margin-left: -50vw;
   max-width: 100vw;
