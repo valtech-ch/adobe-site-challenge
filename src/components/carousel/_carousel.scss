@@ -6,9 +6,14 @@
   display: flex;
   justify-content: space-between;
   position: absolute;
-  width: 90%;
+  width: 100%;
   top: 50%;
-  left: 5%;
+  left: 0%;
+  transform: translate(0,-50%);
+  .full-width-content & {
+    width: 90%;
+    left: 5%;
+  }
 }
 .cmp-carousel__action {
   background-repeat: no-repeat;
@@ -18,6 +23,22 @@
   height: 45px;
 }
 .cmp-carousel__action--disabled {
+}
+.cmp-carousel__action--next {
+  right: -60px;
+  position: absolute;
+  .full-width-content & {
+    right: initial;
+    position: static;
+  }
+}
+.cmp-carousel__action--previous {
+  left: -60px;
+  position: absolute;
+  .full-width-content & {
+    left:initial;
+    position: static;
+  }
 }
 
 .cmp-carousel__action--previous {
