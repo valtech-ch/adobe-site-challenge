@@ -17,7 +17,7 @@
   }
 }
 .cmp-languagenavigation__item {
-  padding: 8px;
+  padding: 11px;
   align-self: end;
   display: flex;
   &:not(.cmp-languagenavigation__item--active ){
@@ -32,6 +32,7 @@
   border:3px solid $color-black;
   border-radius: 8px;
   margin-bottom: 5px;
+  padding: 8px;
   .cmp-languagenavigation__item-link {
     color:$color-black;
   }
