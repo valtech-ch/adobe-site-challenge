@@ -5,6 +5,7 @@
   padding: $spacing--sm $spacing--md;
   border-radius: 200px;
   border: 2px solid $color-black;
+  @include border-color(color-black);
   background: transparent;
   margin-right: -20px;
 

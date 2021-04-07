@@ -4,6 +4,7 @@
 .cmp-title__text {
   font-size: $font-size-lg;
   color: $color-black;
+  @include text-color(color-black);
   line-height: $line-height-title;
   letter-spacing: $letter-spacing-title;
   margin-bottom: $spacing--lg;

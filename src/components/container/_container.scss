@@ -11,18 +11,28 @@ body {
 }
 
 body > .root.container {
-  margin: 0 $container-margin;
+  margin: 0 $container-mobile-margin;
+  @include md{
+    margin: 0 $container-margin;
+  }
 }
 
 /* Div with background color and limited content */
 .full-width > div {
-  margin: 0 $container-negative-margin;
-  padding-left: $container-margin;
-  padding-right: $container-margin;
+  margin: 0 $container-mobile-negative-margin;
+  padding-left: $container-mobile-margin;
+  padding-right: $container-mobile-margin;
+  @include md {
+    margin: 0 $container-negative-margin;
+    padding-left: $container-margin;
+    padding-right: $container-margin;
+  }
 }
 
 /* Full width content */
 .full-width-content {
-  margin: 0 $container-negative-margin
-;
+  margin: 0 $container-mobile-negative-margin;
+  @include md {
+    margin: 0 $container-negative-margin;
+  }
 }

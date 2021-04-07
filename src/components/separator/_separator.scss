@@ -4,6 +4,7 @@
   width: 4rem;
   height: 2px;
   background-color: $color-black;
+  @include background-color(color-black);
   border: none;
   margin: 0 $spacing--lg;
 }

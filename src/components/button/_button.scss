@@ -1,9 +1,11 @@
 // default
 @mixin button {
-  border: 3px solid #090909;
+  border: 3px solid $color-black;
+  @include border-color(color-black);
   border-radius: 100px;
   padding: 3px 40px;
-  background-color: #ffffff;
+  background-color: $color-white;
+  @include background-color(color-white);
   font-size: 16px;
   line-height: 16px;
 }
@@ -12,9 +14,10 @@
   letter-spacing: 1.6px;
   line-height: 26px;
   text-transform: uppercase;
-  font-family: $font-family-bold;
+  font-family: $font-family;
   font-weight: bold;
-  color: #090909;
+  color: $color-black;
+  @include text-color(color-black);
 }
 
 .cmp-button {

@@ -9,3 +9,35 @@ $color-blue: #00bbf9;
 $color-darker-blue: #009fb7;
 $color-orange: #f2a65a;
 $color-red: #f2a65a;
+
+@mixin text-color($color: black) {
+  .dark-content-page & {
+    @if ($color == color-black) {
+      color: $color-white;
+    } @else if ($color == color-medium-gray) {
+      color: $color-white;
+    }
+  }
+}
+
+@mixin background-color($background-color: transparent) {
+  .dark-content-page & {
+    @if ($background-color == color-black) {
+      background-color: $color-white;
+    } @else if ($background-color == color-white) {
+      background-color: $color-black;
+    }
+  }
+
+}
+
+@mixin border-color($border-color: bluedark) {
+  .dark-content-page & {
+    @if ($border-color == color-black) {
+      border-color: $color-white;
+    } @else if ($border-color == bluebright) {
+      border-color: $bluebright-dark;
+    }
+  }
+
+}

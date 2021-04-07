@@ -2,11 +2,13 @@
 
 @mixin button-primary {
   @include button();
-  background-color: #090909;
+  background-color: $color-black;
+  @include background-color(color-black);
 }
 @mixin button-text-primary {
   @include button-text();
-  color: #fff;
+  color: $color-white;
+  @include text-color(color-white);
 }
 
 .cmp-button--primary {

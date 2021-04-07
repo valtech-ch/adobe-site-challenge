@@ -4,6 +4,7 @@
   font-size: 18px;
   background-color: $color-black;
   color:$color-white;
+  position: relative;
   .xf-content-height {
     margin: 0;
   }
@@ -21,5 +22,15 @@
   p {
     margin: 0;
     line-height: 1.2;
+  }
+  .button {
+    position: absolute;
+    width: auto;
+    right: 0;
+    bottom: 50px;
+    #scroll-up {
+      background-color: transparent;
+      background-size: 100% 100%;
+    }
   }
 }

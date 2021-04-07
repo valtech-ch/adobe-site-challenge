@@ -36,6 +36,7 @@
 .cmp-navigation__item-link {
   text-decoration: none;
   color:$color-black;
+  @include text-color(color-black);
   font-size:18px;
   line-height: 1;
   text-transform: uppercase;
