@@ -20,15 +20,16 @@
 .cmp-list__item {
   position: relative;
   margin: 10px 0;
+  display: flex;
   @include md {
     margin: 0;
   }
-  &:not(:first-child) {
+  &:not(:last-child) {
     &::after {
       content: '-';
       @include font;
       font-family: $font-family;
-      position: absolute;
+      position: relative;
       top: 0;
       color: $color-blue;
     }
