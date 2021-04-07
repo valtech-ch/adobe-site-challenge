@@ -1,4 +1,6 @@
 .cmp-teaser--card {
+  padding: 3em;
+
   .cmp-teaser {
   }
   .cmp-teaser__content {
@@ -33,10 +35,10 @@
     padding: 3px 20px;
     text-decoration: none;
     margin-bottom: 50px;
-    font-size:12px;
+    font-size: 12px;
     @include md {
       padding: 3px 40px;
-      font-size:16px;
+      font-size: 16px;
     }
   }
 }
