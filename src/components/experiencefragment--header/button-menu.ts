@@ -9,9 +9,11 @@ window.addEventListener('DOMContentLoaded', () => {
     if (header.classList.contains('navigation-mobile--open') === true) {
       header.classList.remove('navigation-mobile--open')
       body.classList.remove('overflow-hidden')
+      buttonMenu.classList.remove('navigation-open')
     } else {
       header.classList.add('navigation-mobile--open')
       body.classList.add('overflow-hidden')
+      buttonMenu.classList.add('navigation-open')
     }
   })
 })
