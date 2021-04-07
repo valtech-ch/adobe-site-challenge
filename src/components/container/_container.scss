@@ -1,27 +1,5 @@
 .cmp-container {
 }
-
-/******************************************************************************************
-
-Make general max-width 1920px
-
-".full-width" utility class allows full bleed. Useful for bleeding backgrounds for example.
-
-*/
-
-.aem-Grid {
-  margin: auto;
-  max-width: 1920px;
-}
-
-.full-width {
-  left: 50%;
-  margin-left: -50vw;
-  max-width: 100vw;
-  position: relative;
-  width: 100vw;
-}
-
 /* Workaround to avoid horizontal scroll */
 body {
   overflow-x: hidden;
@@ -32,4 +10,19 @@ body {
   }
 }
 
-/*****************************************************************************************/
+body > .root.container {
+  margin: 0 $container-margin;
+}
+
+/* Div with background color and limited content */
+.full-width > div {
+  margin: 0 $container-negative-margin;
+  padding-left: $container-margin;
+  padding-right: $container-margin;
+}
+
+/* Full width content */
+.full-width-content {
+  margin: 0 $container-negative-margin
+;
+}
