@@ -56,4 +56,16 @@
       }
     }
   }
+  .portfolio_right {
+    @include md {
+      height: 100vh;
+      overflow: scroll;
+    }
+  }
+  .portfolio_left {
+    @include md {
+      height: 100vh;
+      overflow: hidden;
+    }
+  }
 }
