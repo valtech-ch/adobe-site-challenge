@@ -1,4 +1,6 @@
-.cmp-tabs {}
+.cmp-tabs {
+    padding: $components-vertical-padding 0;
+}
 
 .cmp-tabs__tablist {
     display: flex;

@@ -2,6 +2,7 @@
   .cmp-tabs {
     display: flex;
     flex-wrap: wrap;
+    padding: $components-vertical-padding 0;
   }
   ol, ul {
     list-style: none;
