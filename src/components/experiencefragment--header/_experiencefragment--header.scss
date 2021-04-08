@@ -1,8 +1,8 @@
 //== XF Header style, used on page template
 .cmp-experiencefragment--header {
-  margin-top:10px;
+  padding-top:10px;
   @include lg {
-    margin-top: 56px;
+    padding-top: 56px;
   }
   .xf-content-height {
     margin: 0;

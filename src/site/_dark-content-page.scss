@@ -1,0 +1,63 @@
+
+
+/* Color modifications for dark-content-page
+if new color is added that needs to change on dark background please add the change for it in the 3 mixins below
+*/
+body > .root.container.dark-content-page {
+  background-color: $color-black;
+  min-height: 100vh;
+  margin: 0;
+  padding-left: $container-mobile-space;
+  padding-right: $container-mobile-space;
+  @include md {
+    padding-left: $container-space;
+    padding-right: $container-space;
+  }
+}
+@mixin text-color($color: black) {
+  .dark-content-page & {
+    @if ($color == color-black) {
+      color: $color-white;
+    } @else if ($color == color-medium-gray) {
+      color: $color-white;
+    } @else if ($color == color-dark-gray) {
+      color: $color-white;
+    } @else if ($color == color-darker-blue) {
+      color: $color-blue;
+    } @else if ($color == color-white) {
+      color: $color-black;
+    }
+  }
+}
+
+@mixin background-color($background-color: transparent) {
+  .dark-content-page & {
+    @if ($background-color == color-black) {
+      background-color: $color-white;
+    } @else if ($background-color == color-white) {
+      background-color: $color-black;
+    } @else if ($background-color == color-medium-gray) {
+      background-color: $color-white;
+    } @else if ($background-color == color-dark-gray) {
+      background-color: $color-white;
+    } @else if ($background-color == color-darker-blue) {
+      background-color: $color-blue;
+    }
+  }
+}
+
+@mixin border-color($border-color: bluedark) {
+  .dark-content-page & {
+    @if ($border-color == color-black) {
+      border-color: $color-white;
+    } @else if ($border-color == color-white) {
+      border-color: $color-black;
+    }@else if ($border-color == color-medium-gray) {
+      border-color: $color-white;
+    } @else if ($border-color == color-dark-gray) {
+      border-color: $color-white;
+    } @else if ($border-color == color-darker-blue) {
+      border-color: $color-blue;
+    }
+  }
+}
