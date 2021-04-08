@@ -4,6 +4,12 @@
 .cmp-carousel__content {
   position:relative;
   min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cmp-carousel__item--active {
+  width: 100%;
 }
 .cmp-carousel__actions {
   display: flex;
