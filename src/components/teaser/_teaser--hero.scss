@@ -1,7 +1,13 @@
 .cmp-teaser--hero {
   .cmp-teaser {
   }
+  .cmp-image__link {
+    display:flex;
+  }
   .cmp-teaser__image {
+    > div {
+      display: flex;
+    }
     & img {
       width: 100%;
     }
