@@ -30,7 +30,7 @@ body > .root.container {
 }
 
 /* Full width content */
-.full-width-content {
+.full-width-content > div {
   margin: 0 $container-mobile-negative-margin;
   @include md {
     margin: 0 $container-negative-margin;
