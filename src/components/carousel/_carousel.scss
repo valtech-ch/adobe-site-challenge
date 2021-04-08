@@ -21,19 +21,15 @@
 .cmp-carousel__action--disabled {
 }
 .cmp-carousel__action--next {
-  right: -60px;
-  position: absolute;
-  .full-width-content & {
-    right: initial;
-    position: static;
+  @include md {
+    right: -60px;
+    position: absolute;
   }
 }
 .cmp-carousel__action--previous {
-  left: -60px;
-  position: absolute;
-  .full-width-content & {
-    left:initial;
-    position: static;
+  @include md {
+    left: -60px;
+    position: absolute;
   }
 }
 .cmp-carousel__action--previous {
