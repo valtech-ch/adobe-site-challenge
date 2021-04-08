@@ -1,4 +1,4 @@
-// navigation-mobile is CLOSED
+/* navigation-mobile is CLOSED */
 .cmp-experiencefragment--header {
   .languagenavigation {
     display: none !important;
@@ -8,7 +8,7 @@
   }
 }
 
-// navigation-mobile is OPEN
+/* navigation-mobile is OPEN */
 .cmp-experiencefragment--header.navigation-mobile--open {
   .languagenavigation {
     width: 100% !important;
@@ -22,5 +22,12 @@
     .cmp-languagenavigation__item-link {
       font-size: 30px;
     }
+  }
+}
+
+/* Language navigation drop down */
+.languagenavigation--open {
+  .cmp-languagenavigation__item:not(.cmp-languagenavigation__item--active) {
+    display: flex;
   }
 }
