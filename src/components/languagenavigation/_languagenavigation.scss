@@ -13,11 +13,12 @@
   flex-direction: row;
   margin: 5px 0 0 0;
   line-height: 1;
+  margin: 0;
   @include md {
     flex-direction: column;
     position: absolute;
     z-index: 5;
-    top:-30px;
+    top:-35px;
   }
 }
 .cmp-languagenavigation__item {
