@@ -1,0 +1,31 @@
+.cmp-contentfragment[data-cmp-contentfragment-model='valtech-ch/models/valtech-ch-music-styles'] {
+  padding: $spacing--sm $spacing--lg;
+  border-radius: 200px;
+  border: 2px solid $color-black;
+  @include border-color(color-black);
+  background: transparent;
+  margin-right: -20px;
+  display: flex;
+  .cmp-contentfragment {
+    &__title {
+      font-size: $font-size-xs;
+      margin: 0;
+      line-height: 1;
+      text-transform:uppercase;
+      text-align: center;
+      display: flex;
+      align-self: center;
+      @include lg {
+        font-size:$font-size-sm;
+      }
+    }
+
+    &__description {
+      display: none;
+    }
+
+    &__elements {
+      display: none;
+    }
+  }
+}

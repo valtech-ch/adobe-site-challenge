@@ -1,29 +1,5 @@
 .cmp-contentfragment {
 }
-
-.cmp-contentfragment[data-cmp-contentfragment-model='valtech-ch/models/valtech-ch-music-styles'] {
-  padding: $spacing--sm $spacing--md;
-  border-radius: 200px;
-  border: 2px solid $color-black;
-  @include border-color(color-black);
-  background: transparent;
-  margin-right: -20px;
-
-  .cmp-contentfragment {
-    &__title {
-      font-size: $font-size-xs;
-      margin: 0;
-    }
-
-    &__description {
-      display: none;
-    }
-
-    &__elements {
-      display: none;
-    }
-  }
-}
 // .cmp-contentfragment--<name>{}
 .cmp-contentfragment__title {
   font-size: $font-size-sm;
