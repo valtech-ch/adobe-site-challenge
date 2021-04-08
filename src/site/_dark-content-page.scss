@@ -14,7 +14,7 @@ body > .root.container.dark-content-page {
     padding-right: $container-space;
   }
 }
-@mixin text-color($color: black) {
+@mixin text-color($color: color-black) {
   .dark-content-page & {
     @if ($color == color-black) {
       color: $color-white;
@@ -46,7 +46,7 @@ body > .root.container.dark-content-page {
   }
 }
 
-@mixin border-color($border-color: bluedark) {
+@mixin border-color($border-color: color-black) {
   .dark-content-page & {
     @if ($border-color == color-black) {
       border-color: $color-white;
