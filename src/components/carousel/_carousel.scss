@@ -1,6 +1,9 @@
 .cmp-carousel {
+
 }
 .cmp-carousel__content {
+  position:relative;
+  min-height: 100px;
 }
 .cmp-carousel__actions {
   display: flex;
@@ -10,6 +13,7 @@
   top: 50%;
   left: 0%;
   transform: translate(0,-50%);
+  height: 45px;
 }
 .cmp-carousel__action {
   background-repeat: no-repeat;
