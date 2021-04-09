@@ -37,6 +37,7 @@
       border-color: $color-white;
       background-color: $color-black;
       width: 45px;
+      margin-bottom: 0;
       @include md {
         width: 65px;
         right: 30px;
