@@ -45,6 +45,7 @@
   white-space: nowrap;
   margin: 0 20px 0 25px;
   text-transform: uppercase;
+  color:$color-black;
 }
 .cmp-list__item-date {
 }
@@ -52,6 +53,6 @@
 // light
 .cmp-list--light {
   .cmp-list__item-title {
-    color: #fff;
+    color: $color-white;
   }
 }
