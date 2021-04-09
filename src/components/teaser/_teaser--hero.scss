@@ -37,7 +37,6 @@
     letter-spacing: -1px;
     margin-top: 5px;
     margin-bottom: 15px;
-    margin-left: 2%;
     text-shadow: 0px 2px 0px $color-medium-gray;
     max-width: 800px;
     @include md {
@@ -54,7 +53,6 @@
   .cmp-teaser__description {
   }
   .cmp-teaser__action-container {
-    margin-left: 2%;
     display: flex;
   }
   .cmp-teaser__action-link {
