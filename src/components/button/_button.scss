@@ -8,6 +8,8 @@
   @include background-color(color-white);
   font-size: 16px;
   line-height: 16px;
+  text-decoration: none;
+  margin-bottom: 50px;
 }
 @mixin button-text {
   font-size: 16px;
