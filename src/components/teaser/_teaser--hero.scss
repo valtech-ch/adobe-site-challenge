@@ -7,9 +7,11 @@
   .cmp-teaser__image {
     > div {
       display: flex;
+      min-height: 300px;
     }
     & img {
       width: 100%;
+      object-fit: cover;
     }
   }
   .cmp-teaser__content {

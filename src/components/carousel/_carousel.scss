@@ -84,10 +84,10 @@
 }
 .cmp-carousel__indicators {
   position: absolute;
-  bottom: 1rem;
+  bottom: 15px;
   width: 100%;
   @include md {
-    bottom: 4rem;
+    bottom: 80px;
   }
 }
 .cmp-carousel__indicator {
