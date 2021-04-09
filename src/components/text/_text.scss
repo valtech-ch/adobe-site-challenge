@@ -1,7 +1,6 @@
 .cmp-text {
   color: $color-black;
   @include text-color(color-black);
-  margin: 0 $spacing--lg;
 }
 .cmp-text__paragraph {
   margin: $spacing 0;
