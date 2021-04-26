@@ -1,6 +1,6 @@
 {
   "name": "adobe-site-challenge",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "AEM site theme that can be used for festival or other campaigns",
   "license": "MIT License, Copyright 2020 Adobe Systems Incorporated",
   "scripts": {
