@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:lastModified="{Date}2021-04-08T12:51:24.164Z"
+        cq:lastModifiedBy="lena.mumenthaler@valtech.com"
+        cq:lastReplicated="{Date}2021-03-19T09:53:32.450Z"
+        cq:lastReplicatedBy="jason.wilson@valtech.com"
+        cq:lastReplicationAction="Activate"
+        cq:template="/conf/valtech-ch/settings/wcm/templates/artist-detail-page"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:uuid="f88441cf-c592-4b95-ad68-cd5313705b22"
+        sling:resourceType="core/wcm/components/page/v2/page">
+        <root
+            cq:styleIds="[1617886247907,1616144929235]"
+            jcr:lastModified="{Date}2021-03-11T12:52:55.113Z"
+            jcr:lastModifiedBy="lena.mumenthaler@valtech.com"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/container/v1/container"
+            layout="responsiveGrid">
+            <container
+                cq:styleIds="[1616920216015]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/container/v1/container"
+                editable="{Boolean}true"
+                layout="responsiveGrid"/>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}768"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>

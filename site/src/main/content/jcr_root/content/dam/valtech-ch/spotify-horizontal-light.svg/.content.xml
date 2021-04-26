@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="eed62f43-edfb-47cb-ae64-bdd7ff79f75f">
+    <jcr:content
+        cq:lastReplicated="{Date}2021-03-19T09:04:45.511Z"
+        cq:lastReplicatedBy="jason.wilson@valtech.com"
+        cq:lastReplicationAction="Activate"
+        dam:assetState="processed"
+        dam:processingId="a7b520a0-d3dc-480b-8db7-d4ee27dbcb97"
+        dam:processingRenditions="[cqdam.text.txt,cq5dam.thumbnail.319.319.png,cq5dam.web.1280.1280.jpeg,cq5dam.thumbnail.48.48.png,cqdam.machine.metadata.json,cq5dam.thumbnail.140.100.png,cqdam.metadata.xml]"
+        dam:processingRequestedDate="{Date}2021-03-11T16:06:52.107Z"
+        dam:runPostProcess="{Boolean}true"
+        jcr:lastModified="{Date}2021-03-11T16:07:03.687Z"
+        jcr:lastModifiedBy="ivana.arsova@valtech.com"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent">
+        <dam:failedRenditions jcr:primaryType="nt:unstructured">
+            <cq5dam.web.1280.1280.jpeg
+                jcr:primaryType="nt:unstructured"
+                message="Format jpg is not supported for svg files"
+                reason="RenditionFormatUnsupported"/>
+            <cq5dam.thumbnail.319.319.png
+                jcr:primaryType="nt:unstructured"
+                message="Format png is not supported for svg files"
+                reason="RenditionFormatUnsupported"/>
+            <cq5dam.thumbnail.140.100.png
+                jcr:primaryType="nt:unstructured"
+                message="Format png is not supported for svg files"
+                reason="RenditionFormatUnsupported"/>
+            <cq5dam.thumbnail.48.48.png
+                jcr:primaryType="nt:unstructured"
+                message="Format png is not supported for svg files"
+                reason="RenditionFormatUnsupported"/>
+        </dam:failedRenditions>
+        <metadata
+            dam:extracted="{Date}2021-03-11T16:07:02.611Z"
+            dam:sha1="5521260a3dd9a422c34e6b5fbf9c31f2a78ad77c"
+            dam:size="{Long}1221"
+            dc:format="image/svg+xml"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

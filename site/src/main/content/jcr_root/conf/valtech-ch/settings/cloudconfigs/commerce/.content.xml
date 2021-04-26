@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastReplicated="{Date}2021-03-03T08:55:04.017Z"
+        cq:lastReplicatedBy="lena.mumenthaler@valtech.com"
+        cq:lastReplicationAction="Activate"
+        cq:template="/libs/cif/shell/components/configuration/page/template"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Commerce"
+        jcr:uuid="7139470c-ed34-444d-aea7-11fb88048b38"
+        sling:configPropertyInherit="true"
+        sling:resourceType="cif/shell/components/configuration/page"/>
+    <rep:policy/>
+</jcr:root>

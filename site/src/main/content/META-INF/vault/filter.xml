@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/content/experience-fragments/valtech-ch" mode="merge"/>
+    <filter root="/content/valtech-ch" mode="merge"/>
+    <filter root="/content/dam/valtech-ch" mode="merge"/>
+    <filter root="/conf/valtech-ch" mode="merge"/>
+</workspaceFilter>

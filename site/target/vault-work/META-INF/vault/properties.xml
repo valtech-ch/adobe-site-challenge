@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>The Festival_ Theme - Content Package</comment>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="acHandling">merge</entry>
+<entry key="created">2021-04-26T09:33:19.045Z</entry>
+<entry key="groupId">ch.valtech.adobe-site-challenge</entry>
+<entry key="description">AEM site theme that can be used for festival or other campaigns</entry>
+<entry key="version">0.0.1-SNAPSHOT</entry>
+<entry key="packageType">content</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="cloudManagerTarget">none</entry>
+<entry key="name">The Festival_ Theme - Content Package</entry>
+<entry key="artifactId">adobe-site-challenge.site</entry>
+<entry key="group">ch.valtech.adobe-site-challenge</entry>
+</properties>

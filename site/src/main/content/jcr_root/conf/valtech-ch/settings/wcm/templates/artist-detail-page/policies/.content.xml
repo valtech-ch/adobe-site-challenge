@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-04-08T12:51:16.653Z"
+        cq:lastModifiedBy="lena.mumenthaler@valtech.com"
+        cq:lastReplicated="{Date}2021-03-19T09:37:46.770Z"
+        cq:lastReplicatedBy="jason.wilson@valtech.com"
+        cq:lastReplicationAction="Activate"
+        cq:policy="core/wcm/components/page/v2/page/policy_default"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:ReplicationStatus,mix:versionable]"
+        jcr:primaryType="nt:unstructured"
+        jcr:uuid="e4ca8480-c514-40f4-ae02-d68630b787c5"
+        sling:resourceType="wcm/core/components/policies/mappings">
+        <root
+            cq:policy="core/wcm/components/container/v1/container/policy_root"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/core/components/policies/mapping">
+            <container
+                cq:policy="core/wcm/components/container/v1/container/policy_default"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/core/components/policies/mappings">
+                <core jcr:primaryType="nt:unstructured">
+                    <wcm jcr:primaryType="nt:unstructured">
+                        <components jcr:primaryType="nt:unstructured">
+                            <button jcr:primaryType="nt:unstructured">
+                                <v1 jcr:primaryType="nt:unstructured">
+                                    <button
+                                        cq:policy="core/wcm/components/button/v1/button/policy_1616059486639"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                                </v1>
+                            </button>
+                            <container jcr:primaryType="nt:unstructured">
+                                <v1 jcr:primaryType="nt:unstructured">
+                                    <container
+                                        cq:policy="core/wcm/components/container/v1/container/policy_1617694614135"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                                </v1>
+                            </container>
+                            <contentfragmentlist jcr:primaryType="nt:unstructured">
+                                <v1 jcr:primaryType="nt:unstructured">
+                                    <contentfragmentlist
+                                        cq:policy="core/wcm/components/contentfragmentlist/v1/contentfragmentlist/policy_1616144712501"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                                </v1>
+                            </contentfragmentlist>
+                            <text jcr:primaryType="nt:unstructured">
+                                <v2 jcr:primaryType="nt:unstructured">
+                                    <text
+                                        cq:policy="core/wcm/components/text/v2/text/policy_36130473686573"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                                </v2>
+                            </text>
+                        </components>
+                    </wcm>
+                </core>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

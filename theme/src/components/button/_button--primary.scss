@@ -1,0 +1,21 @@
+@import 'components/button/button';
+
+@mixin button-primary {
+  @include button();
+  background-color: $color-black;
+  @include background-color(color-black);
+}
+@mixin button-text-primary {
+  @include button-text();
+  color: $color-white;
+  @include text-color(color-white);
+}
+
+.cmp-button--primary {
+  .cmp-button {
+    @include button-primary();
+  }
+  .cmp-button__text {
+    @include button-text-primary();
+  }
+}

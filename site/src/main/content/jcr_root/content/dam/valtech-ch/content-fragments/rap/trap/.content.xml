@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="ed721d9b-2612-4d30-a361-da5fb1fb4620">
+    <jcr:content
+        cq:name="trap"
+        cq:parentPath="/content/dam/valtech-ch/content-fragments/rap"
+        jcr:description=""
+        jcr:lastModified="{Date}2021-04-11T10:31:10.518Z"
+        jcr:lastModifiedBy="nicolas.hirrle@valtech.com"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Trap"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2021-04-11T10:31:10.519Z">
+        <data
+            cq:model="/conf/valtech-ch/settings/dam/cfm/models/valtech-ch-music-styles"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                fieldLabel="Trap"
+                fieldLabel_x0040_LastModified="{Date}2021-04-11T10:31:10.424Z"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

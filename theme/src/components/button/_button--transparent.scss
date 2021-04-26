@@ -1,0 +1,21 @@
+@import 'components/button/button';
+
+@mixin button-transparent {
+  @include button();
+  background-color: transparent;
+}
+
+@mixin button-text-transparent {
+  @include button-text();
+  color: $color-black;
+  @include text-color(color-black);
+}
+
+.cmp-button--transparent {
+  .cmp-button {
+    @include button-transparent();
+  }
+  .cmp-button__text {
+    @include button-text-transparent();
+  }
+}

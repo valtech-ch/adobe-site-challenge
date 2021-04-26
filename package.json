@@ -1,24 +1,17 @@
 {
   "name": "adobe-site-challenge",
-  "version": "0.0.1",
-  "description": "Basic AEM site theme",
-  "private": true,
-  "main": "src/main.ts",
+  "version": "1.0.1",
+  "title": "The Festival",
+  "description": "AEM site theme that can be used for festival or other campaigns",
+  "createdBy": "Valtech CH and MK team",
+  "useCases": ["festival","campagin","microsite"],
+  "docsUrl":"",
+  "showcaseUrl": "",
+  "sourceRepositoryUrl": "",
   "license": "MIT License, Copyright 2020 Adobe Systems Incorporated",
-  "scripts": {
-    "browser-sync": "browser-sync start --proxy 'localhost:7000' --files 'dist'",
-    "build": "webpack --config ./webpack.prod.js",
-    "compile": "webpack --env dev --config ./webpack.dev.js",
-    "dev": "npm-run-all -p watch proxy browser-sync",
-    "proxy": "aem-site-theme-builder live",
-    "watch": "watch \"npm run compile\" src"
-  },
-  "browserslist": [
-    "last 2 version",
-    "> 1%"
-  ],
   "dependencies": {},
   "devDependencies": {
+    "@adobe/aem-site-template-builder": "^2.1.2",
     "@adobe/aem-site-theme-builder": "4.0.1",
     "@typescript-eslint/eslint-plugin": "^4.3.0",
     "@typescript-eslint/parser": "^4.3.0",

@@ -1,0 +1,9 @@
+      .a9d6e549-39d5-4b8f-98c8-f68cd307f943 {
+        fill: #c7fb74;
+      }
+      .f440293b-be6e-4075-8207-6380bee356c9 {
+        fill: #fff;
+      }
+      .a0e63d63-3e7b-4eae-a9fc-bd1dabcece8b {
+        fill: #090909;
+      }

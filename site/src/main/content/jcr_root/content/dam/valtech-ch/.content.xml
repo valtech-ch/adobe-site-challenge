@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <jcr:content
+        cq:conf="/conf/valtech-ch"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Valtech CH">
+        <folderThumbnail/>
+    </jcr:content>
+    <asset.jpg/>
+    <antoine-julien-tnvWwMJXRtM-unsplash.jpg/>
+    <yvette-de-wit-Kcx_YuUR-dw-unsplash.jpg/>
+    <site_logo_dark.svg/>
+    <site_logo_light.svg/>
+    <facebook-horizontal-light.svg/>
+    <youtube-horizontal-light.svg/>
+    <instagram-horizontal-light.svg/>
+    <spotify-horizontal-light.svg/>
+    <soundcloud-horizontal-light.svg/>
+    <deezer-horizontal-light.svg/>
+    <content-fragments/>
+    <Shape_x0020_1.svg/>
+    <background-shapes.png/>
+    <Shapes_Accomodation.png/>
+    <Shapes_Foreground.png/>
+    <Vector_Graphic_Map_Festival_x0020_Site.png/>
+    <pexels-monica-silvestre-1662924.jpg/>
+    <pexels-elle-hughes-1680171.jpg/>
+    <pexels-elle-hughes-1680172.jpg/>
+    <pexels-monica-silvestre-1662925.jpg/>
+    <pexels-tima-miroshnichenko-5118496.jpg/>
+    <pexels-tima-miroshnichenko-5118500.jpg/>
+    <noun_Logo_3405412.png/>
+    <noun_Logo_3459126.png/>
+    <noun_Logo_2179136.png/>
+    <noun_Logo_2179133.png/>
+    <Tab_x0020_Content_x0020_-_x0020_Stage_x0020_Date_x0020_and_x0020_Location.png/>
+    <Tab_x0020_Content_x0020_-_x0020_Stage_x0020_Date_x0020_and_x0020_Location.svg/>
+</jcr:root>
