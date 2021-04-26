@@ -9,7 +9,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Baden Boys"
-        jcr:uuid="d6652610-b258-41d8-ba2a-05a589ca92dd"
+
         sling:resourceType="core/wcm/components/page/v2/page">
         <root
             jcr:primaryType="nt:unstructured"

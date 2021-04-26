@@ -11,7 +11,6 @@
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[cq:ReplicationStatus,mix:versionable]"
         jcr:primaryType="nt:unstructured"
-        jcr:uuid="f7563ab1-3a0b-4886-8a98-d8f604431d3a"
         sling:resourceType="wcm/core/components/policies/mappings">
         <root
             cq:policy="core/wcm/components/container/v1/container/policy_root"

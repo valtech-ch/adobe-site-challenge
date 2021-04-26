@@ -11,7 +11,7 @@
         jcr:mixinTypes="[cq:LiveRelationship,mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="WWW"
-        jcr:uuid="7419833e-fc3b-40f3-8a42-52bbd884f851"
+
         sling:resourceType="core/wcm/components/page/v2/page">
         <root
             cq:lastRolledout="{Date}2021-04-09T18:14:15.186Z"

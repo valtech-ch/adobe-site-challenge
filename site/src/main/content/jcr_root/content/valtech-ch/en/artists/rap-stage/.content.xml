@@ -9,7 +9,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Rap Stage"
-        jcr:uuid="681b40f0-e59a-474b-809e-7187ab9176e8"
+
         sling:resourceType="core/wcm/components/page/v2/page">
         <root
             jcr:primaryType="nt:unstructured"

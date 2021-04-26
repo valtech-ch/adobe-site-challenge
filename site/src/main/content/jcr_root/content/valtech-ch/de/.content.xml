@@ -20,7 +20,7 @@
         jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync,cq:PropertyLiveSyncCancelled,mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Das Festival_"
-        jcr:uuid="14cf108f-c274-4d27-be60-a339405d6189"
+
         sling:resourceType="core/wcm/components/page/v2/page"
         navTitle="DE"
         pageTitle="The Festival_">

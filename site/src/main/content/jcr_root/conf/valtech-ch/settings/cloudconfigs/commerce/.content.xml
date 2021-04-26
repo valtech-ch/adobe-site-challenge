@@ -11,7 +11,6 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Commerce"
-        jcr:uuid="7139470c-ed34-444d-aea7-11fb88048b38"
         sling:configPropertyInherit="true"
         sling:resourceType="cif/shell/components/configuration/page"/>
     <rep:policy/>

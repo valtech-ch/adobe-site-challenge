@@ -9,7 +9,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Jack James"
-        jcr:uuid="f1e552da-651b-435b-94da-e3f91784d3a1"
+
         sling:resourceType="core/wcm/components/page/v2/page">
         <root
             jcr:primaryType="nt:unstructured"

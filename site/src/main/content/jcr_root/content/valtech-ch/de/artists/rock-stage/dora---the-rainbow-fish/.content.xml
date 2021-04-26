@@ -11,7 +11,7 @@
         jcr:mixinTypes="[cq:LiveRelationship,mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Dora &amp; the rainbow fish"
-        jcr:uuid="ca9f3a63-4d8b-4fd8-811e-2ff87811fa22"
+
         sling:resourceType="core/wcm/components/page/v2/page">
         <root
             cq:lastRolledout="{Date}2021-04-09T18:14:14.666Z"

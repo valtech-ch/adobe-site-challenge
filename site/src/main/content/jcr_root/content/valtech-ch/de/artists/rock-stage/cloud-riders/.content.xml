@@ -11,7 +11,7 @@
         jcr:mixinTypes="[cq:LiveRelationship,mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Cloud riders"
-        jcr:uuid="4fd32c32-e5af-479f-84de-d4e9ee590689"
+
         sling:resourceType="core/wcm/components/page/v2/page">
         <root
             cq:lastRolledout="{Date}2021-04-09T18:14:15.410Z"

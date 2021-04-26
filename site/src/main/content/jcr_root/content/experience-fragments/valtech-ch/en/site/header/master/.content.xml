@@ -14,7 +14,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Header"
-        jcr:uuid="6d294730-a119-4d85-9c21-25eb370f2bab"
+
         sling:resourceType="cq/experience-fragments/components/xfpage">
         <root
             jcr:lastModified="{Date}2021-03-11T11:45:29.862Z"

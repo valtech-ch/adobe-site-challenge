@@ -11,7 +11,7 @@
         jcr:mixinTypes="[cq:LiveRelationship,mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Baden Boys"
-        jcr:uuid="df42ddbe-c759-4d47-811d-44bd88dbafbb"
+
         sling:resourceType="core/wcm/components/page/v2/page">
         <root
             cq:lastRolledout="{Date}2021-04-09T18:14:14.988Z"

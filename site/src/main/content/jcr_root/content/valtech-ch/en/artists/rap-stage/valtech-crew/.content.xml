@@ -9,7 +9,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Valtech Crew"
-        jcr:uuid="24605b4c-87cc-49a0-a463-a474c3c1fdd5"
+
         sling:resourceType="core/wcm/components/page/v2/page"
         socialMedia="[facebook,pinterest]">
         <root

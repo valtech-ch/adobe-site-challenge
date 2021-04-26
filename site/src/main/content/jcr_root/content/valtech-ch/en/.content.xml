@@ -17,7 +17,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="The Festival_"
-        jcr:uuid="e29f32fc-8a11-40fe-ab61-b82a26543c4d"
+
         sling:resourceType="core/wcm/components/page/v2/page"
         navTitle="EN"
         pageTitle="The Festival_">

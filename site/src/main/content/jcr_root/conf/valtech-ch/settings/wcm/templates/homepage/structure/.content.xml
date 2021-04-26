@@ -12,7 +12,6 @@
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
-        jcr:uuid="50b38ee5-ddea-4306-88fb-3aefa9f9f5c5"
         sling:resourceType="core/wcm/components/page/v2/page">
         <root
             jcr:lastModified="{Date}2021-03-11T09:25:20.766Z"

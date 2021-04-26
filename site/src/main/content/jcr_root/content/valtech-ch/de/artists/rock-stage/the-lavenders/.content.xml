@@ -11,7 +11,7 @@
         jcr:mixinTypes="[cq:LiveRelationship,mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="The Lavenders"
-        jcr:uuid="d4515b31-4ac5-4408-b4bc-8916889f9481"
+
         sling:resourceType="core/wcm/components/page/v2/page">
         <root
             cq:lastRolledout="{Date}2021-04-09T18:14:15.526Z"

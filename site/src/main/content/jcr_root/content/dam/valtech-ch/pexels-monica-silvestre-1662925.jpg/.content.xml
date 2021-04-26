@@ -2,8 +2,8 @@
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
-    jcr:primaryType="dam:Asset"
-    jcr:uuid="e183d935-2012-42b3-9027-4059a4e8e075">
+    jcr:primaryType="dam:Asset">
+
     <jcr:content
         cq:lastReplicated="{Date}2021-04-12T12:24:33.768Z"
         cq:lastReplicatedBy="helmut.minst@valtech.de"

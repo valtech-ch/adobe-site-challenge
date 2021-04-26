@@ -13,7 +13,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Heartless Affection"
-        jcr:uuid="aaf60ed2-90ed-4185-809f-486a05205a47"
+
         sling:resourceType="core/wcm/components/page/v2/page"
         socialMedia="[facebook,pinterest]">
         <root

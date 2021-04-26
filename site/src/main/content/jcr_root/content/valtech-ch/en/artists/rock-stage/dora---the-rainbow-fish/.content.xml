@@ -9,7 +9,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Dora &amp; the rainbow fish"
-        jcr:uuid="d8cfc42d-c428-4b51-8ee2-5cae57d7de54"
+
         sling:resourceType="core/wcm/components/page/v2/page">
         <root
             jcr:primaryType="nt:unstructured"

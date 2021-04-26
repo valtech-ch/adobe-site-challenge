@@ -13,7 +13,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Valtech CH &amp; MK"
-        jcr:uuid="4208a280-5a1a-4bc7-a068-00c58033effe"
+
         sling:configRef="/conf/valtech-ch"
         sling:redirect="true"
         sling:redirectStatus="{Long}302"

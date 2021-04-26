@@ -11,7 +11,7 @@
         jcr:mixinTypes="[cq:LiveRelationship,mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Taverns Along Doom"
-        jcr:uuid="9c531858-32cf-45b3-8f29-0efa1742497b"
+
         sling:resourceType="core/wcm/components/page/v2/page">
         <root
             cq:lastRolledout="{Date}2021-04-11T11:30:32.149Z"

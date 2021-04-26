@@ -11,7 +11,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Header"
-        jcr:uuid="37339438-290c-4841-b1b4-168079a80bb3"
+
         sling:resourceType="cq/experience-fragments/components/experiencefragment"/>
     <master/>
     <dark-header/>

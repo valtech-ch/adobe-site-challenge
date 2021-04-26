@@ -15,7 +15,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Footer"
-        jcr:uuid="dbb94122-5eca-4efd-8395-419b77e78e26"
+
         sling:resourceType="cq/experience-fragments/components/xfpage">
         <root
             jcr:lastModified="{Date}2021-03-18T13:12:29.589Z"
