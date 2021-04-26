@@ -6,4 +6,4 @@ We have learned through this challenge that style policies are very powerful and
 
 # How to develop
 
-[/theme/README.md](Instructions can be found here)
+[Instructions can be found here](/theme/README.md)
