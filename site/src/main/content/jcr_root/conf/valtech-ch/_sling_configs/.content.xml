@@ -47,11 +47,4 @@
         jcr:primaryType="nt:unstructured"
         clientId="28b07c6be4d544f188dc2f36e33b196b"
         reportSuiteId=""/>
-    <com.adobe.aem.wcm.site.manager.config.SiteConfig
-        jcr:lastModified="{Binary}"
-        jcr:lastModifiedBy="allan.maio@valtech.com"
-        jcr:primaryType="nt:unstructured"
-        githubTokenEncrypted="\{543f1d2562218cf62f4f22ac231468b1e7d354e77bf17f42b5649edf22bfc9d776adbd861754f7f0487b3e9c98548a02e2bbbbae578cb24c9e3982fffc7f3827}"
-        githubUrl="https://github.com/valtech-ch/adobe-site-challenge"
-        siteTemplatePath="/conf/global/site-templates/aem-site-template-basic-4.0.3"/>
 </jcr:root>
