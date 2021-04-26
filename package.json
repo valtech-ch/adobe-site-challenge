@@ -4,7 +4,7 @@
   "title": "The Festival",
   "description": "AEM site theme that can be used for festival or other campaigns",
   "createdBy": "Valtech CH and MK team",
-  "useCases": "festival,campagin,microsite",
+  "useCases": ["festival","campagin","microsite"],
   "docsUrl":"",
   "showcaseUrl": "",
   "sourceRepositoryUrl": "",

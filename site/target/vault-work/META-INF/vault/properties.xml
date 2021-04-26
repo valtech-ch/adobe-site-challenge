@@ -4,7 +4,7 @@
 <comment>The Festival_ Theme - Content Package</comment>
 <entry key="allowIndexDefinitions">false</entry>
 <entry key="acHandling">merge</entry>
-<entry key="created">2021-04-26T09:06:34.700Z</entry>
+<entry key="created">2021-04-26T09:24:57.595Z</entry>
 <entry key="groupId">ch.valtech.adobe-site-challenge</entry>
 <entry key="description">AEM site theme that can be used for festival or other campaigns</entry>
 <entry key="version">0.0.1-SNAPSHOT</entry>

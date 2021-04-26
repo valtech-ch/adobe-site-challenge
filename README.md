@@ -1,30 +1,9 @@
-# Site Theme
+# The Festival_ theme
 
-This is the theme of the basic site template for Adobe Experience Manager (AEM).
+We created a design and templates for a microsite/campaign page that can be easily adapted. In our case, the template showcases a festival event page. In our existing AEM projects we have seen that for campaigns or events, clients have used other content management systems to host such microsites. Therefore, we used this challenge to set up an easily reusable template that would allow our clients to host these microsites within AEM directly as realization time is short.
+Next to a homepage, a news page, detail page and content page we also included a dark mode content page. We heavily used style policies to make best use of the AEM core components.
+We have learned through this challenge that style policies are very powerful and that we can get pretty far without backend development. Furthermore, the collaboration between business/content team and frontend developers was intuitive and fast, making the lives of both disciplines easier.
 
-This theme can be modified to customize the visual appearance of sites created from the basic site template.
+# How to develop
 
-## Structure
-
-- `src/main.ts`: This is the main entry point of your JS & CSS theme.
-- `src/site`: Files that are generic to the entire site.
-- `src/components`: Files that are specific to components.
-- `src/resources`: Associated files, like icons, logos, fonts.
-
-## Build
-
-1. Initialize the project with following command executed at the theme root:
-
-```
-yarn install
-```
-
-2. Complete the `.env` file with credentials for the local proxy server to access the site created on Cloud Service.
-
-3. Run the local proxy server while working to preview your changes with the content from the production environment.
-
-```
-yarn dev
-```
-
-4. Once your work completed, check your changes into GitHub, and execute the deployment action on GitHub.
+Instructions can be found here

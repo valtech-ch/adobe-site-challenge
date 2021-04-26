@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "title": "The Festival",
   "description": "AEM site theme that can be used for festival or other campaigns",
+  "createdBy": "Valtech CH and MK team",
+  "useCases": [
+    "festival",
+    "campagin",
+    "microsite"
+  ],
   "private": true,
   "main": "src/main.ts",
   "license": "MIT License, Copyright 2020 Adobe Systems Incorporated",
