@@ -15,7 +15,11 @@
   "siteTemplate": {
     "title": "The Festival_",
     "createdBy": "Valtech CH and MK",
-    "useCases": ["festival","campagin","microsite"],
+    "useCases": [
+      "festival",
+      "campagin",
+      "microsite"
+    ],
     "docsUrl": "",
     "showcaseUrl": "",
     "sourceRepositoryUrl": "https://github.com/valtech-ch/adobe-site-challenge"
