@@ -1,4 +1,4 @@
-@import './button.scss';
+@import 'components/button/button';
 
 @mixin button-transparent {
   @include button();
