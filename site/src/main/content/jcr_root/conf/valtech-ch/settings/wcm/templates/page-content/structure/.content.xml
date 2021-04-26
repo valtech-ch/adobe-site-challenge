@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:lastModified="{Date}2021-04-09T11:28:28.423Z"
+        cq:lastModifiedBy="lena.mumenthaler@valtech.com"
+        cq:lastReplicated="{Date}2021-04-12T12:24:07.668Z"
+        cq:lastReplicatedBy="helmut.minst@valtech.de"
+        cq:lastReplicationAction="Activate"
+        cq:template="/conf/valtech-ch/settings/wcm/templates/page-content"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:uuid="52894b3f-8fa9-498a-9241-2081f905ad6b"
+        sling:resourceType="core/wcm/components/page/v2/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/container/v1/container"
+            layout="simple">
+            <experiencefragment-header
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
+                fragmentVariationPath="/content/experience-fragments/valtech-ch/en/site/header/master"/>
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/container/v1/container"
+                layout="responsiveGrid">
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/title/v2/title"
+                    editable="{Boolean}true"/>
+                <container
+                    jcr:lastModified="{Date}2021-03-02T08:47:53.961Z"
+                    jcr:lastModifiedBy="nicolas.hirrle@valtech.com"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/container/v1/container"
+                    editable="{Boolean}true"/>
+            </container>
+            <experiencefragment-footer
+                cq:styleIds="[1616927480231]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
+                fragmentVariationPath="/content/experience-fragments/valtech-ch/en/site/footer/master"/>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}768"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>

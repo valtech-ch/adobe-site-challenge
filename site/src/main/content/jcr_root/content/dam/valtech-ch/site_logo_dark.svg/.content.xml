@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="09915178-b239-4027-b870-152a565e181f">
+    <jcr:content
+        cq:lastReplicated="{Date}2021-03-19T09:04:45.511Z"
+        cq:lastReplicatedBy="jason.wilson@valtech.com"
+        cq:lastReplicationAction="Activate"
+        dam:assetState="processed"
+        dam:processingId="228bb82f-2420-455a-bd94-9cbb8d0cd30a"
+        dam:processingRenditions="[cq5dam.thumbnail.48.48.png,cqdam.machine.metadata.json,cq5dam.web.1280.1280.jpeg,cqdam.metadata.xml,cq5dam.thumbnail.319.319.png,cq5dam.thumbnail.140.100.png,cqdam.text.txt]"
+        dam:processingRequestedDate="{Date}2021-03-11T09:28:49.856Z"
+        dam:runPostProcess="{Boolean}true"
+        jcr:lastModified="{Date}2021-03-11T09:29:35.798Z"
+        jcr:lastModifiedBy="ivana.arsova@valtech.com"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:extracted="{Date}2021-03-11T09:29:34.219Z"
+            dam:sha1="d471b9cd976c74f361cc0b8ba23be7fa86b89a50"
+            dam:size="{Long}7248"
+            dc:format="image/svg+xml"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}4"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}4"
+                lastUsed="{Date}2021-03-18T11:19:03.807Z"/>
+        </usages>
+    </jcr:content>
+</jcr:root>

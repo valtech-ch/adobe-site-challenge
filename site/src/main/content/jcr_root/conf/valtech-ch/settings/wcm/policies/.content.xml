@@ -1,0 +1,1608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="cq:Page">
+    <rep:policy/>
+    <core jcr:primaryType="nt:unstructured">
+        <wcm jcr:primaryType="nt:unstructured">
+            <components jcr:primaryType="nt:unstructured">
+                <page jcr:primaryType="nt:unstructured">
+                    <v2 jcr:primaryType="nt:unstructured">
+                        <page jcr:primaryType="nt:unstructured">
+                            <policy_default
+                                jcr:description="Includes the required client libraries."
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Generic Page"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                clientlibs="[core.wcm.components.accordion.v1,core.wcm.components.tabs.v1,core.wcm.components.carousel.v1,core.wcm.components.image.v2,core.wcm.components.breadcrumb.v2,core.wcm.components.search.v1,core.wcm.components.form.text.v2,core.wcm.components.pdfviewer.v1,core.wcm.components.commons.datalayer.v1]">
+                                <jcr:content
+                                    cq:lastReplicated="{Date}2021-03-03T08:55:04.017Z"
+                                    cq:lastReplicatedBy="lena.mumenthaler@valtech.com"
+                                    cq:lastReplicationAction="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </policy_default>
+                        </page>
+                    </v2>
+                </page>
+                <download jcr:primaryType="nt:unstructured">
+                    <v1 jcr:primaryType="nt:unstructured">
+                        <download jcr:primaryType="nt:unstructured">
+                            <policy_default
+                                jcr:description="Sets the title size to H3."
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Content Download"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                allowUpload="false"
+                                displayFilename="true"
+                                displayFormat="true"
+                                displaySize="true"
+                                titleType="h3">
+                                <jcr:content
+                                    cq:lastReplicated="{Date}2021-03-11T08:30:59.726Z"
+                                    cq:lastReplicatedBy="jason.wilson@valtech.com"
+                                    cq:lastReplicationAction="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </policy_default>
+                        </download>
+                    </v1>
+                </download>
+                <teaser jcr:primaryType="nt:unstructured">
+                    <v1 jcr:primaryType="nt:unstructured">
+                        <teaser jcr:primaryType="nt:unstructured">
+                            <policy_default
+                                jcr:description="Sets the title size to H3."
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Content Teaser"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                titleType="h3">
+                                <jcr:content
+                                    cq:lastReplicated="{Date}2021-03-11T08:30:59.726Z"
+                                    cq:lastReplicatedBy="jason.wilson@valtech.com"
+                                    cq:lastReplicationAction="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </policy_default>
+                            <policy_37662319321499
+                                cq:styleDefaultClasses="cmp-teaser--card"
+                                jcr:lastModified="{Date}2021-03-19T14:42:22.544Z"
+                                jcr:lastModifiedBy="lena.mumenthaler@valtech.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Teaser variations"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                showTitleType="false">
+                                <jcr:content
+                                    cq:lastReplicated="{Date}2021-04-12T12:24:07.668Z"
+                                    cq:lastReplicatedBy="helmut.minst@valtech.de"
+                                    cq:lastReplicationAction="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleGroupLabel="Teaser Style"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="cmp-teaser--card"
+                                                cq:styleId="1616072854351"
+                                                cq:styleLabel="Card"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item1
+                                                cq:styleClasses="cmp-teaser--hero"
+                                                cq:styleId="1615385860355"
+                                                cq:styleLabel="Hero"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item2
+                                                cq:styleClasses="cmp-teaser--hero-with-description"
+                                                cq:styleId="1616072886378"
+                                                cq:styleLabel="Hero with description"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                </cq:styleGroups>
+                            </policy_37662319321499>
+                        </teaser>
+                    </v1>
+                </teaser>
+                <container jcr:primaryType="nt:unstructured">
+                    <v1 jcr:primaryType="nt:unstructured">
+                        <container jcr:primaryType="nt:unstructured">
+                            <policy_root
+                                jcr:description="Allows the template components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
+                                jcr:lastModified="{Date}2021-04-08T12:54:54.908Z"
+                                jcr:lastModifiedBy="lena.mumenthaler@valtech.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Page Root"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                backgroundColorEnabled="true"
+                                backgroundImageEnabled="true"
+                                components="[group:Core Content]"
+                                layout="responsiveGrid"
+                                layoutDisabled="false">
+                                <jcr:content
+                                    cq:lastReplicated="{Date}2021-04-12T12:24:07.668Z"
+                                    cq:lastReplicatedBy="helmut.minst@valtech.de"
+                                    cq:lastReplicationAction="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <cq:authoring jcr:primaryType="nt:unstructured">
+                                    <assetToComponentMapping jcr:primaryType="nt:unstructured">
+                                        <mapping_1575024218483
+                                            jcr:primaryType="nt:unstructured"
+                                            assetGroup="media"
+                                            assetMimetype="image/*"
+                                            droptarget="image"
+                                            resourceType="core/wcm/components/image/v2/image"/>
+                                        <mapping_1575030843388
+                                            jcr:primaryType="nt:unstructured"
+                                            assetGroup="content"
+                                            assetMimetype="text/html"
+                                            droptarget="experiencefragment"
+                                            resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"/>
+                                        <mapping_1575030853128
+                                            jcr:primaryType="nt:unstructured"
+                                            assetGroup="media"
+                                            assetMimetype="[text/html,application/vnd.adobe.contentfragment]"
+                                            droptarget="contentfragment"
+                                            resourceType="core/wcm/components/contentfragment/v1/contentfragment"/>
+                                    </assetToComponentMapping>
+                                </cq:authoring>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleGroupLabel="Style"
+                                        cq:styleGroupMultiple="true"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="portfolio"
+                                                cq:styleId="1616144929235"
+                                                cq:styleLabel="Artist"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item1
+                                                cq:styleClasses="full-width"
+                                                cq:styleId="1617886480980"
+                                                cq:styleLabel="Full Width"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item2
+                                                cq:styleClasses="full-width-content"
+                                                cq:styleId="1617886247907"
+                                                cq:styleLabel="Full Width Content"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item3
+                                                cq:styleClasses="dark-content-page"
+                                                cq:styleId="1617886403550"
+                                                cq:styleLabel="Dark Content"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                </cq:styleGroups>
+                            </policy_root>
+                            <policy_default
+                                jcr:description="Allows the page components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
+                                jcr:lastModified="{Date}2021-04-09T14:07:20.529Z"
+                                jcr:lastModifiedBy="ivana.arsova@valtech.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Page Content"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                allowedColorSwatches="[,#f2efe9,#090909,#c7fb74,#f2a65a]"
+                                backgroundColorEnabled="true"
+                                backgroundColorSwatchesOnly="true"
+                                backgroundImageEnabled="true"
+                                components="[/libs/core/wcm/components/button/v1/button,/libs/core/wcm/components/carousel/v1/carousel,/libs/core/wcm/components/container/v1/container,/libs/core/wcm/components/contentfragment/v1/contentfragment,/libs/core/wcm/components/contentfragmentlist/v1/contentfragmentlist,/libs/core/wcm/components/embed/v1/embed,/libs/core/wcm/components/experiencefragment/v1/experiencefragment,/libs/core/wcm/components/image/v2/image,/libs/core/wcm/components/list/v2/list,/libs/core/wcm/components/separator/v1/separator,/libs/core/wcm/components/tabs/v1/tabs,/libs/core/wcm/components/teaser/v1/teaser,/libs/core/wcm/components/text/v2/text,/libs/core/wcm/components/title/v2/title,group:Core Structure]"
+                                layout="responsiveGrid"
+                                layoutDisabled="false">
+                                <jcr:content
+                                    cq:lastReplicated="{Date}2021-04-12T12:24:07.668Z"
+                                    cq:lastReplicatedBy="helmut.minst@valtech.de"
+                                    cq:lastReplicationAction="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <cq:authoring jcr:primaryType="nt:unstructured">
+                                    <assetToComponentMapping jcr:primaryType="nt:unstructured">
+                                        <mapping_1575030255082
+                                            jcr:primaryType="nt:unstructured"
+                                            assetGroup="media"
+                                            assetMimetype="image/*"
+                                            droptarget="image"
+                                            resourceType="core/wcm/components/image/v2/image"/>
+                                        <mapping_1575030260142
+                                            jcr:primaryType="nt:unstructured"
+                                            assetGroup="content"
+                                            assetMimetype="text/html"
+                                            droptarget="experiencefragment"
+                                            resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"/>
+                                        <mapping_1575030269139
+                                            jcr:primaryType="nt:unstructured"
+                                            assetGroup="media"
+                                            assetMimetype="[text/html,application/vnd.adobe.contentfragment]"
+                                            droptarget="contentfragment"
+                                            resourceType="core/wcm/components/contentfragment/v1/contentfragment"/>
+                                    </assetToComponentMapping>
+                                </cq:authoring>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleGroupLabel="Width"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="full-width"
+                                                cq:styleId="1616920216015"
+                                                cq:styleLabel="Full Width"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item1
+                                                cq:styleClasses="full-width-content"
+                                                cq:styleId="1617885464216"
+                                                cq:styleLabel="Full Width Content"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item2
+                                                cq:styleId="1617974847313"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                </cq:styleGroups>
+                            </policy_default>
+                            <policy_main
+                                cq:styleDefaultClasses="main"
+                                jcr:description="Sets a &lt;main> element on the page content area."
+                                jcr:lastModified="{Date}2021-03-10T15:33:51.475Z"
+                                jcr:lastModifiedBy="lena.mumenthaler@valtech.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Page Main"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                backgroundColorEnabled="true"
+                                backgroundImageEnabled="true"
+                                layout="responsiveGrid"
+                                layoutDisabled="false">
+                                <jcr:content
+                                    cq:lastReplicated="{Date}2021-03-11T08:30:59.726Z"
+                                    cq:lastReplicatedBy="jason.wilson@valtech.com"
+                                    cq:lastReplicationAction="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </policy_main>
+                            <policy_xf_root
+                                jcr:description="Allows the template components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
+                                jcr:lastModified="{Date}2021-03-11T11:54:37.264Z"
+                                jcr:lastModifiedBy="lena.mumenthaler@valtech.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="XF Root"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                backgroundColorEnabled="true"
+                                backgroundImageEnabled="true"
+                                components="[group:Core Content,group:Core Structure]"
+                                layout="responsiveGrid"
+                                layoutDisabled="false">
+                                <jcr:content
+                                    cq:lastReplicated="{Date}2021-03-19T09:04:45.511Z"
+                                    cq:lastReplicatedBy="jason.wilson@valtech.com"
+                                    cq:lastReplicationAction="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <cq:authoring jcr:primaryType="nt:unstructured">
+                                    <assetToComponentMapping jcr:primaryType="nt:unstructured">
+                                        <mapping_1575024218483
+                                            jcr:primaryType="nt:unstructured"
+                                            assetGroup="media"
+                                            assetMimetype="image/*"
+                                            droptarget="image"
+                                            resourceType="core/wcm/components/image/v2/image"/>
+                                        <mapping_1575030843388
+                                            jcr:primaryType="nt:unstructured"
+                                            assetGroup="content"
+                                            assetMimetype="text/html"
+                                            droptarget="experiencefragment"
+                                            resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"/>
+                                        <mapping_1575030853128
+                                            jcr:primaryType="nt:unstructured"
+                                            assetGroup="media"
+                                            assetMimetype="[text/html,application/vnd.adobe.contentfragment]"
+                                            droptarget="contentfragment"
+                                            resourceType="core/wcm/components/contentfragment/v1/contentfragment"/>
+                                    </assetToComponentMapping>
+                                </cq:authoring>
+                            </policy_xf_root>
+                            <policy_16638709012995
+                                jcr:lastModified="{Date}2021-03-03T12:49:59.867Z"
+                                jcr:lastModifiedBy="lorenzo.garciamoreno@valtech.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Full Width Page"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                layoutDisabled="false">
+                                <jcr:content
+                                    cq:lastReplicated="{Date}2021-03-03T08:55:04.017Z"
+                                    cq:lastReplicatedBy="lena.mumenthaler@valtech.com"
+                                    cq:lastReplicationAction="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleGroupLabel="Parallax"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="parallax-container"
+                                                cq:styleId="1614761401137"
+                                                cq:styleLabel="Enable Parallax"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                </cq:styleGroups>
+                            </policy_16638709012995>
+                            <policy_1617694614135
+                                jcr:lastModified="{Date}2021-04-06T07:41:14.804Z"
+                                jcr:lastModifiedBy="lena.mumenthaler@valtech.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Left/Right Content"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                allowedColorSwatches="[#000000,#c7fb74]"
+                                backgroundColorEnabled="true"
+                                backgroundColorSwatchesOnly="true"
+                                backgroundImageEnabled="true"
+                                components="[/libs/core/wcm/components/button/v1/button,/libs/core/wcm/components/carousel/v1/carousel,/libs/core/wcm/components/container/v1/container,/libs/core/wcm/components/contentfragment/v1/contentfragment,/libs/core/wcm/components/contentfragmentlist/v1/contentfragmentlist,/libs/core/wcm/components/embed/v1/embed,/libs/core/wcm/components/experiencefragment/v1/experiencefragment,/libs/core/wcm/components/image/v2/image,/libs/core/wcm/components/list/v2/list,/libs/core/wcm/components/separator/v1/separator,/libs/core/wcm/components/tabs/v1/tabs,/libs/core/wcm/components/teaser/v1/teaser,/libs/core/wcm/components/text/v2/text,/libs/core/wcm/components/title/v2/title,group:Core Structure]"
+                                layout="responsiveGrid"
+                                layoutDisabled="false">
+                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                                <cq:authoring jcr:primaryType="nt:unstructured">
+                                    <assetToComponentMapping jcr:primaryType="nt:unstructured">
+                                        <mapping_1575030255082
+                                            jcr:primaryType="nt:unstructured"
+                                            assetGroup="media"
+                                            assetMimetype="image/*"
+                                            droptarget="image"
+                                            resourceType="core/wcm/components/image/v2/image"/>
+                                        <mapping_1575030260142
+                                            jcr:primaryType="nt:unstructured"
+                                            assetGroup="content"
+                                            assetMimetype="text/html"
+                                            droptarget="experiencefragment"
+                                            resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"/>
+                                        <mapping_1575030269139
+                                            jcr:primaryType="nt:unstructured"
+                                            assetGroup="media"
+                                            assetMimetype="[text/html,application/vnd.adobe.contentfragment]"
+                                            droptarget="contentfragment"
+                                            resourceType="core/wcm/components/contentfragment/v1/contentfragment"/>
+                                    </assetToComponentMapping>
+                                </cq:authoring>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleGroupLabel="Width"
+                                        cq:styleGroupMultiple="true"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="full-width"
+                                                cq:styleId="1616920216015"
+                                                cq:styleLabel="Full Width"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                    <item1
+                                        cq:styleGroupLabel="Artist Page"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="portfolio_left"
+                                                cq:styleId="1617694652595"
+                                                cq:styleLabel="Left"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item1
+                                                cq:styleClasses="portfolio_right"
+                                                cq:styleId="1617694656898"
+                                                cq:styleLabel="Right"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item1>
+                                </cq:styleGroups>
+                            </policy_1617694614135>
+                        </container>
+                    </v1>
+                </container>
+                <experiencefragment jcr:primaryType="nt:unstructured">
+                    <v1 jcr:primaryType="nt:unstructured">
+                        <experiencefragment jcr:primaryType="nt:unstructured">
+                            <policy_header
+                                cq:styleDefaultClasses="header"
+                                jcr:description="Sets a &lt;header> element on the page header experience fragment."
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Page Header"
+                                sling:resourceType="wcm/core/components/policy/policy">
+                                <jcr:content
+                                    cq:lastReplicated="{Date}2021-03-11T08:30:59.726Z"
+                                    cq:lastReplicatedBy="jason.wilson@valtech.com"
+                                    cq:lastReplicationAction="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </policy_header>
+                            <policy_footer
+                                cq:styleDefaultClasses="footer"
+                                jcr:description="Sets a &lt;footer> element on the page footer experience fragment."
+                                jcr:lastModified="{Date}2021-04-09T18:25:44.263Z"
+                                jcr:lastModifiedBy="lena.mumenthaler@valtech.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Page Footer"
+                                sling:resourceType="wcm/core/components/policy/policy">
+                                <jcr:content
+                                    cq:lastReplicated="{Date}2021-04-12T12:24:07.668Z"
+                                    cq:lastReplicatedBy="helmut.minst@valtech.de"
+                                    cq:lastReplicationAction="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0 jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="full-width"
+                                                cq:styleId="1616927480231"
+                                                cq:styleLabel="Full Width"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item1
+                                                cq:styleId="1616927485652"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                </cq:styleGroups>
+                            </policy_footer>
+                        </experiencefragment>
+                    </v1>
+                </experiencefragment>
+                <title jcr:primaryType="nt:unstructured">
+                    <v2 jcr:primaryType="nt:unstructured">
+                        <title jcr:primaryType="nt:unstructured">
+                            <policy_page
+                                jcr:description="Allows only H1 and disallows links for the main page title."
+                                jcr:lastModified="{Date}2021-03-19T14:42:30.645Z"
+                                jcr:lastModifiedBy="lena.mumenthaler@valtech.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Page Title"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                allowedTypes="h1"
+                                linkDisabled="true"
+                                type="h1">
+                                <jcr:content
+                                    cq:lastReplicated="{Date}2021-04-12T12:24:07.668Z"
+                                    cq:lastReplicatedBy="helmut.minst@valtech.de"
+                                    cq:lastReplicationAction="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleGroupLabel="Layout"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="cmp-title--centered"
+                                                cq:styleId="1616142525855"
+                                                cq:styleLabel="Centered"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item1
+                                                cq:styleId="1616143338503"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                </cq:styleGroups>
+                            </policy_page>
+                            <policy_default
+                                jcr:description="Allows all sizes, but not H1, which is reserved for the main page title."
+                                jcr:lastModified="{Date}2021-04-09T18:20:05.649Z"
+                                jcr:lastModifiedBy="lena.mumenthaler@valtech.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Content Title"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                allowedTypes="[h2,h3,h4,h5,h6]"
+                                linkDisabled="true"
+                                type="h2">
+                                <jcr:content
+                                    cq:lastReplicated="{Date}2021-04-12T12:24:33.768Z"
+                                    cq:lastReplicatedBy="helmut.minst@valtech.de"
+                                    cq:lastReplicationAction="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleGroupLabel="Layout"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="cmp-title--centered"
+                                                cq:styleId="1615466990910"
+                                                cq:styleLabel="Centered"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                </cq:styleGroups>
+                            </policy_default>
+                        </title>
+                    </v2>
+                </title>
+                <text jcr:primaryType="nt:unstructured">
+                    <v2 jcr:primaryType="nt:unstructured">
+                        <text jcr:primaryType="nt:unstructured">
+                            <policy_default
+                                jcr:lastModified="{Date}2021-04-11T11:13:51.619Z"
+                                jcr:lastModifiedBy="nicolas.hirrle@valtech.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Content Text"
+                                sling:resourceType="wcm/core/components/policy/policy">
+                                <jcr:content
+                                    cq:lastReplicated="{Date}2021-04-12T12:24:33.768Z"
+                                    cq:lastReplicatedBy="helmut.minst@valtech.de"
+                                    cq:lastReplicationAction="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <rtePlugins jcr:primaryType="nt:unstructured">
+                                    <paraformat
+                                        jcr:primaryType="nt:unstructured"
+                                        features="*">
+                                        <formats
+                                            jcr:primaryType="nt:unstructured"
+                                            override="true">
+                                            <item0
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Paragraph"
+                                                tag="p"/>
+                                            <item1
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Quote"
+                                                tag="blockquote"/>
+                                            <item2
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Preformatted"
+                                                tag="pre"/>
+                                            <item3
+                                                jcr:primaryType="nt:unstructured"
+                                                description="H1"
+                                                tag="h1"/>
+                                            <item4
+                                                jcr:primaryType="nt:unstructured"
+                                                description="H2"
+                                                tag="h2"/>
+                                            <item5
+                                                jcr:primaryType="nt:unstructured"
+                                                description="H3"
+                                                tag="h3"/>
+                                        </formats>
+                                    </paraformat>
+                                    <misctools
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-">
+                                        <specialCharsConfig jcr:primaryType="nt:unstructured">
+                                            <chars
+                                                jcr:primaryType="nt:unstructured"
+                                                override="true">
+                                                <item0
+                                                    jcr:primaryType="nt:unstructured"
+                                                    entity="&amp;copy;"
+                                                    name="copyright"/>
+                                                <item1
+                                                    jcr:primaryType="nt:unstructured"
+                                                    entity="&amp;euro;"
+                                                    name="euro"/>
+                                                <item2
+                                                    jcr:primaryType="nt:unstructured"
+                                                    entity="&amp;reg;"
+                                                    name="registered"/>
+                                                <item3
+                                                    jcr:primaryType="nt:unstructured"
+                                                    entity="&amp;trade;"
+                                                    name="trademark"/>
+                                            </chars>
+                                        </specialCharsConfig>
+                                    </misctools>
+                                    <edit
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <findreplace
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <undo
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <spellcheck
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <image
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <table
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <lists
+                                        jcr:primaryType="nt:unstructured"
+                                        features="*"/>
+                                    <justify
+                                        jcr:primaryType="nt:unstructured"
+                                        features="*"/>
+                                    <format
+                                        jcr:primaryType="nt:unstructured"
+                                        features="bold,italic"/>
+                                    <links
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <subsuperscript
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                </rtePlugins>
+                            </policy_default>
+                            <policy_12167559007719
+                                jcr:lastModified="{Date}2021-04-11T11:26:07.182Z"
+                                jcr:lastModifiedBy="nicolas.hirrle@valtech.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Text policy"
+                                sling:resourceType="wcm/core/components/policy/policy">
+                                <jcr:content
+                                    cq:lastReplicated="{Date}2021-04-12T12:24:07.668Z"
+                                    cq:lastReplicatedBy="helmut.minst@valtech.de"
+                                    cq:lastReplicationAction="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <rtePlugins jcr:primaryType="nt:unstructured">
+                                    <paraformat
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-">
+                                        <formats
+                                            jcr:primaryType="nt:unstructured"
+                                            override="true">
+                                            <item0
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Paragraph"
+                                                tag="p"/>
+                                            <item1
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Heading 1"
+                                                tag="h1"/>
+                                            <item2
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Heading 2"
+                                                tag="h2"/>
+                                            <item3
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Heading 3"
+                                                tag="h3"/>
+                                            <item4
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Heading 4"
+                                                tag="h4"/>
+                                            <item5
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Heading 5"
+                                                tag="h5"/>
+                                            <item6
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Heading 6"
+                                                tag="h6"/>
+                                            <item7
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Quote"
+                                                tag="blockquote"/>
+                                            <item8
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Horizontal Rule (visual line break)"
+                                                tag="hr"/>
+                                            <item9
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Preformatted"
+                                                tag="pre"/>
+                                        </formats>
+                                    </paraformat>
+                                    <misctools
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-">
+                                        <specialCharsConfig jcr:primaryType="nt:unstructured">
+                                            <chars
+                                                jcr:primaryType="nt:unstructured"
+                                                override="true">
+                                                <item0
+                                                    jcr:primaryType="nt:unstructured"
+                                                    entity="&amp;copy;"
+                                                    name="copyright"/>
+                                                <item1
+                                                    jcr:primaryType="nt:unstructured"
+                                                    entity="&amp;euro;"
+                                                    name="euro"/>
+                                                <item2
+                                                    jcr:primaryType="nt:unstructured"
+                                                    entity="&amp;reg;"
+                                                    name="registered"/>
+                                                <item3
+                                                    jcr:primaryType="nt:unstructured"
+                                                    entity="&amp;trade;"
+                                                    name="trademark"/>
+                                            </chars>
+                                        </specialCharsConfig>
+                                    </misctools>
+                                    <edit
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <findreplace
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <undo
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <spellcheck
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <image
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <lists
+                                        jcr:primaryType="nt:unstructured"
+                                        features="*"/>
+                                    <format
+                                        jcr:primaryType="nt:unstructured"
+                                        features="bold,italic,underline"/>
+                                    <justify
+                                        jcr:primaryType="nt:unstructured"
+                                        features="*"/>
+                                    <table
+                                        jcr:primaryType="nt:unstructured"
+                                        features="*"/>
+                                    <links
+                                        jcr:primaryType="nt:unstructured"
+                                        features="modifylink,unlink,anchor"/>
+                                    <subsuperscript
+                                        jcr:primaryType="nt:unstructured"
+                                        features="*"/>
+                                </rtePlugins>
+                            </policy_12167559007719>
+                            <policy_579236841167323
+                                jcr:lastModified="{Date}2021-03-03T13:22:00.455Z"
+                                jcr:lastModifiedBy="lorenzo.garciamoreno@valtech.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Parallax Text"
+                                sling:resourceType="wcm/core/components/policy/policy">
+                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                                <rtePlugins jcr:primaryType="nt:unstructured">
+                                    <paraformat
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-">
+                                        <formats
+                                            jcr:primaryType="nt:unstructured"
+                                            override="true">
+                                            <item0
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Paragraph"
+                                                tag="p"/>
+                                            <item1
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Heading 1"
+                                                tag="h1"/>
+                                            <item2
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Heading 2"
+                                                tag="h2"/>
+                                            <item3
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Heading 3"
+                                                tag="h3"/>
+                                            <item4
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Heading 4"
+                                                tag="h4"/>
+                                            <item5
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Heading 5"
+                                                tag="h5"/>
+                                            <item6
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Heading 6"
+                                                tag="h6"/>
+                                            <item7
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Quote"
+                                                tag="blockquote"/>
+                                            <item8
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Horizontal Rule (visual line break)"
+                                                tag="hr"/>
+                                            <item9
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Preformatted"
+                                                tag="pre"/>
+                                        </formats>
+                                    </paraformat>
+                                    <misctools
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-">
+                                        <specialCharsConfig jcr:primaryType="nt:unstructured">
+                                            <chars
+                                                jcr:primaryType="nt:unstructured"
+                                                override="true">
+                                                <item0
+                                                    jcr:primaryType="nt:unstructured"
+                                                    entity="&amp;copy;"
+                                                    name="copyright"/>
+                                                <item1
+                                                    jcr:primaryType="nt:unstructured"
+                                                    entity="&amp;euro;"
+                                                    name="euro"/>
+                                                <item2
+                                                    jcr:primaryType="nt:unstructured"
+                                                    entity="&amp;reg;"
+                                                    name="registered"/>
+                                                <item3
+                                                    jcr:primaryType="nt:unstructured"
+                                                    entity="&amp;trade;"
+                                                    name="trademark"/>
+                                            </chars>
+                                        </specialCharsConfig>
+                                    </misctools>
+                                    <edit
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <findreplace
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <undo
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <spellcheck
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <image
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <table
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <lists
+                                        jcr:primaryType="nt:unstructured"
+                                        features="*"/>
+                                    <justify
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <format
+                                        jcr:primaryType="nt:unstructured"
+                                        features="bold,italic"/>
+                                    <links
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <subsuperscript
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                </rtePlugins>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleGroupLabel="Parallax"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="parallax-foreground"
+                                                cq:styleId="1614775998176"
+                                                cq:styleLabel="Foreground"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                    <item1
+                                        cq:styleGroupLabel="Parallax Speed"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="parallax-speed-x1"
+                                                cq:styleId="1614776017935"
+                                                cq:styleLabel="x1"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item1
+                                                cq:styleClasses="parallax-speed-x2"
+                                                cq:styleId="1614776018580"
+                                                cq:styleLabel="x2"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item2
+                                                cq:styleClasses="parallax-speed-x3"
+                                                cq:styleId="1614777691638"
+                                                cq:styleLabel="x3"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item3
+                                                cq:styleClasses="parallax-speed-x4"
+                                                cq:styleId="1614777692316"
+                                                cq:styleLabel="x4"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item4
+                                                cq:styleClasses="parallax-speed-x5"
+                                                cq:styleId="1614777692923"
+                                                cq:styleLabel="x5"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item5
+                                                cq:styleClasses="parallax-speed-x6"
+                                                cq:styleId="1614777693700"
+                                                cq:styleLabel="x6"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item1>
+                                </cq:styleGroups>
+                            </policy_579236841167323>
+                            <policy_36130473686573
+                                jcr:lastModified="{Date}2021-03-19T10:04:50.899Z"
+                                jcr:lastModifiedBy="lena.mumenthaler@valtech.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Artist Page"
+                                sling:resourceType="wcm/core/components/policy/policy">
+                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                                <rtePlugins jcr:primaryType="nt:unstructured">
+                                    <paraformat
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-">
+                                        <formats
+                                            jcr:primaryType="nt:unstructured"
+                                            override="true">
+                                            <item0
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Paragraph"
+                                                tag="p"/>
+                                            <item1
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Heading 1"
+                                                tag="h1"/>
+                                            <item2
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Heading 2"
+                                                tag="h2"/>
+                                            <item3
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Heading 3"
+                                                tag="h3"/>
+                                            <item4
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Heading 4"
+                                                tag="h4"/>
+                                            <item5
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Heading 5"
+                                                tag="h5"/>
+                                            <item6
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Heading 6"
+                                                tag="h6"/>
+                                            <item7
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Quote"
+                                                tag="blockquote"/>
+                                            <item8
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Horizontal Rule (visual line break)"
+                                                tag="hr"/>
+                                            <item9
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Preformatted"
+                                                tag="pre"/>
+                                        </formats>
+                                    </paraformat>
+                                    <misctools
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-">
+                                        <specialCharsConfig jcr:primaryType="nt:unstructured">
+                                            <chars
+                                                jcr:primaryType="nt:unstructured"
+                                                override="true">
+                                                <item0
+                                                    jcr:primaryType="nt:unstructured"
+                                                    entity="&amp;copy;"
+                                                    name="copyright"/>
+                                                <item1
+                                                    jcr:primaryType="nt:unstructured"
+                                                    entity="&amp;euro;"
+                                                    name="euro"/>
+                                                <item2
+                                                    jcr:primaryType="nt:unstructured"
+                                                    entity="&amp;reg;"
+                                                    name="registered"/>
+                                                <item3
+                                                    jcr:primaryType="nt:unstructured"
+                                                    entity="&amp;trade;"
+                                                    name="trademark"/>
+                                            </chars>
+                                        </specialCharsConfig>
+                                    </misctools>
+                                    <edit
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <findreplace
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <undo
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <spellcheck
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <image
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <table
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <lists
+                                        jcr:primaryType="nt:unstructured"
+                                        features="*"/>
+                                    <justify
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <format
+                                        jcr:primaryType="nt:unstructured"
+                                        features="bold,italic"/>
+                                    <links
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <subsuperscript
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                </rtePlugins>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0 jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="portfolio_subtitle"
+                                                cq:styleId="1616148279048"
+                                                cq:styleLabel="Subtitle"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                </cq:styleGroups>
+                            </policy_36130473686573>
+                        </text>
+                    </v2>
+                </text>
+                <image jcr:primaryType="nt:unstructured">
+                    <v2 jcr:primaryType="nt:unstructured">
+                        <image jcr:primaryType="nt:unstructured">
+                            <policy_default
+                                jcr:description="- Enable lazy loading for faster page loading.&#xd;&#xa;- Define allowed image widths for automatic loading of the image in the most optimal resolution, given the size at which each image is displayed on the page, and the visitor's pixel density.&#xd;&#xa;- Disallow direct asset upload, to force authors to first upload the images to Assets."
+                                jcr:lastModified="{Date}2021-03-11T10:46:04.491Z"
+                                jcr:lastModifiedBy="lena.mumenthaler@valtech.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Content Image"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                allowedRenditionWidths="[320,480,600,800,1024,1200,1600]"
+                                allowUpload="false"
+                                altValueFromDAM="true"
+                                disableLazyLoading="false"
+                                displayPopupTitle="true"
+                                isDecorative="false"
+                                jpegQuality="{Long}85"
+                                titleValueFromDAM="true"
+                                uuidDisabled="true">
+                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                                <plugins jcr:primaryType="nt:unstructured">
+                                    <crop
+                                        jcr:primaryType="nt:unstructured"
+                                        features="*">
+                                        <aspectRatios jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                jcr:primaryType="nt:unstructured"
+                                                name="Wide Landscape"
+                                                ratio="0.618"/>
+                                            <item1
+                                                jcr:primaryType="nt:unstructured"
+                                                name="Landscape"
+                                                ratio="0.8284"/>
+                                            <item2
+                                                jcr:primaryType="nt:unstructured"
+                                                name="Square"
+                                                ratio="1"/>
+                                            <item3
+                                                jcr:primaryType="nt:unstructured"
+                                                name="Portrait"
+                                                ratio="1.618"/>
+                                        </aspectRatios>
+                                    </crop>
+                                    <rotate
+                                        jcr:primaryType="nt:unstructured"
+                                        features="right"/>
+                                    <flip
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                </plugins>
+                            </policy_default>
+                            <policy_478168152027480
+                                jcr:lastModified="{Date}2021-03-11T10:49:06.402Z"
+                                jcr:lastModifiedBy="lena.mumenthaler@valtech.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="image"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                allowUpload="true"
+                                altValueFromDAM="true"
+                                disableLazyLoading="true"
+                                displayPopupTitle="true"
+                                isDecorative="false"
+                                jpegQuality="{Long}100"
+                                titleValueFromDAM="true"
+                                uuidDisabled="true">
+                                <jcr:content
+                                    cq:lastReplicated="{Date}2021-03-19T08:38:45.567Z"
+                                    cq:lastReplicatedBy="jason.wilson@valtech.com"
+                                    cq:lastReplicationAction="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <plugins jcr:primaryType="nt:unstructured">
+                                    <crop
+                                        jcr:primaryType="nt:unstructured"
+                                        features="*">
+                                        <aspectRatios jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                jcr:primaryType="nt:unstructured"
+                                                name="Wide Landscape"
+                                                ratio="0.618"/>
+                                            <item1
+                                                jcr:primaryType="nt:unstructured"
+                                                name="Landscape"
+                                                ratio="0.8284"/>
+                                            <item2
+                                                jcr:primaryType="nt:unstructured"
+                                                name="Square"
+                                                ratio="1"/>
+                                            <item3
+                                                jcr:primaryType="nt:unstructured"
+                                                name="Portrait"
+                                                ratio="1.618"/>
+                                        </aspectRatios>
+                                    </crop>
+                                    <rotate
+                                        jcr:primaryType="nt:unstructured"
+                                        features="right"/>
+                                    <flip
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                </plugins>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleGroupLabel="background"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="background_image"
+                                                cq:styleId="1614674917666"
+                                                cq:styleLabel="background"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                    <item1
+                                        cq:styleGroupLabel="Parallax"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="parallax-background"
+                                                cq:styleId="1614775679260"
+                                                cq:styleLabel="Background"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item1
+                                                cq:styleClasses="parallax-foreground"
+                                                cq:styleId="1614775700315"
+                                                cq:styleLabel="Foreground"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item1>
+                                    <item2
+                                        cq:styleGroupLabel="Parallax Speed"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="parallax-speed-x1"
+                                                cq:styleId="1614775928113"
+                                                cq:styleLabel="x1"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item1
+                                                cq:styleClasses="parallax-speed-x2"
+                                                cq:styleId="1614775928885"
+                                                cq:styleLabel="x2"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item2>
+                                </cq:styleGroups>
+                            </policy_478168152027480>
+                            <policy_577773416968735
+                                jcr:lastModified="{Date}2021-03-03T12:29:15.953Z"
+                                jcr:lastModifiedBy="allan.maio@valtech.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="test-allan-img"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                allowUpload="true"
+                                altValueFromDAM="true"
+                                disableLazyLoading="true"
+                                displayPopupTitle="true"
+                                isDecorative="false"
+                                jpegQuality="{Long}75"
+                                titleValueFromDAM="true"
+                                uuidDisabled="true">
+                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                                <plugins jcr:primaryType="nt:unstructured">
+                                    <crop
+                                        jcr:primaryType="nt:unstructured"
+                                        features="*">
+                                        <aspectRatios jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                jcr:primaryType="nt:unstructured"
+                                                name="Wide Landscape"
+                                                ratio="0.6180"/>
+                                            <item1
+                                                jcr:primaryType="nt:unstructured"
+                                                name="Landscape"
+                                                ratio="0.8284"/>
+                                            <item2
+                                                jcr:primaryType="nt:unstructured"
+                                                name="Square"
+                                                ratio="1"/>
+                                            <item3
+                                                jcr:primaryType="nt:unstructured"
+                                                name="Portrait"
+                                                ratio="1.6180"/>
+                                        </aspectRatios>
+                                    </crop>
+                                    <rotate
+                                        jcr:primaryType="nt:unstructured"
+                                        features="right"/>
+                                    <flip
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                </plugins>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleGroupLabel="Side"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="img-left-side"
+                                                cq:styleId="1614774504492"
+                                                cq:styleLabel="Left"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item1
+                                                cq:styleClasses="img-right-side"
+                                                cq:styleId="1614774529172"
+                                                cq:styleLabel="Right"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                </cq:styleGroups>
+                            </policy_577773416968735>
+                            <policy_1615459893139
+                                jcr:lastModified="{Date}2021-03-11T10:52:01.576Z"
+                                jcr:lastModifiedBy="lena.mumenthaler@valtech.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Image policy"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                allowUpload="false"
+                                altValueFromDAM="true"
+                                disableLazyLoading="true"
+                                displayPopupTitle="true"
+                                isDecorative="false"
+                                jpegQuality="{Long}85"
+                                titleValueFromDAM="true"
+                                uuidDisabled="true">
+                                <jcr:content
+                                    cq:lastReplicated="{Date}2021-03-19T09:04:45.511Z"
+                                    cq:lastReplicatedBy="jason.wilson@valtech.com"
+                                    cq:lastReplicationAction="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <plugins jcr:primaryType="nt:unstructured">
+                                    <crop
+                                        jcr:primaryType="nt:unstructured"
+                                        features="*">
+                                        <aspectRatios jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                jcr:primaryType="nt:unstructured"
+                                                name="Wide Landscape"
+                                                ratio="0.618"/>
+                                            <item1
+                                                jcr:primaryType="nt:unstructured"
+                                                name="Landscape"
+                                                ratio="0.8284"/>
+                                            <item2
+                                                jcr:primaryType="nt:unstructured"
+                                                name="Square"
+                                                ratio="1"/>
+                                            <item3
+                                                jcr:primaryType="nt:unstructured"
+                                                name="Portrait"
+                                                ratio="1.618"/>
+                                        </aspectRatios>
+                                    </crop>
+                                    <rotate
+                                        jcr:primaryType="nt:unstructured"
+                                        features="right"/>
+                                    <flip
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                </plugins>
+                            </policy_1615459893139>
+                        </image>
+                    </v2>
+                </image>
+                <languagenavigation jcr:primaryType="nt:unstructured">
+                    <v1 jcr:primaryType="nt:unstructured">
+                        <languagenavigation jcr:primaryType="nt:unstructured">
+                            <policy_xf
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="My Site Language Navigation - Experience Fragment"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                navigationRoot="/content/valtech-ch"
+                                structureDepth="1">
+                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                            </policy_xf>
+                        </languagenavigation>
+                    </v1>
+                </languagenavigation>
+                <form jcr:primaryType="nt:unstructured">
+                    <container jcr:primaryType="nt:unstructured">
+                        <v2 jcr:primaryType="nt:unstructured">
+                            <container jcr:primaryType="nt:unstructured">
+                                <policy_default
+                                    jcr:description="Allows the form components to be dropped into this form container."
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Content Form"
+                                    sling:resourceType="wcm/core/components/policy/policy"
+                                    components="[group:Core Form]">
+                                    <jcr:content
+                                        cq:lastReplicated="{Date}2021-03-11T08:30:59.726Z"
+                                        cq:lastReplicatedBy="jason.wilson@valtech.com"
+                                        cq:lastReplicationAction="Activate"
+                                        jcr:mixinTypes="[cq:ReplicationStatus]"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </policy_default>
+                            </container>
+                        </v2>
+                    </container>
+                </form>
+                <tabs jcr:primaryType="nt:unstructured">
+                    <v1 jcr:primaryType="nt:unstructured">
+                        <tabs jcr:primaryType="nt:unstructured">
+                            <policy_1615447332696
+                                jcr:lastModified="{Date}2021-04-09T10:53:10.599Z"
+                                jcr:lastModifiedBy="lena.mumenthaler@valtech.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Tab Policy"
+                                sling:resourceType="wcm/core/components/policy/policy">
+                                <jcr:content
+                                    cq:lastReplicated="{Date}2021-04-12T12:24:33.768Z"
+                                    cq:lastReplicatedBy="helmut.minst@valtech.de"
+                                    cq:lastReplicationAction="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleGroupLabel="Style"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="stageStyle"
+                                                cq:styleId="1615447355295"
+                                                cq:styleLabel="Stage style"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item1
+                                                cq:styleClasses="tabs-light"
+                                                cq:styleId="1617965579022"
+                                                cq:styleLabel="Tabs Light"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                    <item1
+                                        cq:styleGroupLabel="Alignment"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="tabs-vertical"
+                                                cq:styleId="1616162394107"
+                                                cq:styleLabel="Vertical"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item1>
+                                </cq:styleGroups>
+                            </policy_1615447332696>
+                            <policy_52884334391364
+                                jcr:lastModified="{Date}2021-03-19T14:43:04.414Z"
+                                jcr:lastModifiedBy="lena.mumenthaler@valtech.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Tabs Policy"
+                                sling:resourceType="wcm/core/components/policy/policy">
+                                <jcr:content
+                                    cq:lastReplicated="{Date}2021-04-12T12:24:07.668Z"
+                                    cq:lastReplicatedBy="helmut.minst@valtech.de"
+                                    cq:lastReplicationAction="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleGroupLabel="Visual Style"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="cmp-tabs--flat"
+                                                cq:styleId="1615451143273"
+                                                cq:styleLabel="Flat Tabs"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item1
+                                                cq:styleClasses="cmp-tabs--stage"
+                                                cq:styleId="1615451217941"
+                                                cq:styleLabel="Stage Tabs"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                </cq:styleGroups>
+                            </policy_52884334391364>
+                        </tabs>
+                    </v1>
+                </tabs>
+                <carousel jcr:primaryType="nt:unstructured">
+                    <v1 jcr:primaryType="nt:unstructured">
+                        <carousel jcr:primaryType="nt:unstructured">
+                            <policy_1615992808910
+                                jcr:lastModified="{Date}2021-03-18T10:54:11.890Z"
+                                jcr:lastModifiedBy="lorenzo.garciamoreno@valtech.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Carousel Policy"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                autopauseDisabled="false"
+                                autoplay="false"
+                                delay="5000">
+                                <jcr:content
+                                    cq:lastReplicated="{Date}2021-04-12T12:24:33.768Z"
+                                    cq:lastReplicatedBy="helmut.minst@valtech.de"
+                                    cq:lastReplicationAction="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleGroupLabel="Variants"
+                                        cq:styleGroupMultiple="true"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="cmp-carousel--dark"
+                                                cq:styleId="1615992817573"
+                                                cq:styleLabel="Dark"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item1
+                                                cq:styleClasses="cmp-carousel--indicators-disable"
+                                                cq:styleId="1616064837646"
+                                                cq:styleLabel="Disable Indicators"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                </cq:styleGroups>
+                            </policy_1615992808910>
+                        </carousel>
+                    </v1>
+                </carousel>
+                <button jcr:primaryType="nt:unstructured">
+                    <v1 jcr:primaryType="nt:unstructured">
+                        <button jcr:primaryType="nt:unstructured">
+                            <policy_1616059486639
+                                jcr:lastModified="{Date}2021-04-01T15:19:00.067Z"
+                                jcr:lastModifiedBy="lena.mumenthaler@valtech.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Button"
+                                sling:resourceType="wcm/core/components/policy/policy">
+                                <jcr:content
+                                    cq:lastReplicated="{Date}2021-04-12T12:24:33.768Z"
+                                    cq:lastReplicatedBy="helmut.minst@valtech.de"
+                                    cq:lastReplicationAction="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleGroupLabel="Variant"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="cmp-button--primary"
+                                                cq:styleId="1616059495211"
+                                                cq:styleLabel="Primary"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item1
+                                                cq:styleClasses="cmp-button--transparent"
+                                                cq:styleId="1616059507876"
+                                                cq:styleLabel="Transparent"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item2
+                                                cq:styleClasses="cmp-button--back"
+                                                cq:styleId="1616061637517"
+                                                cq:styleLabel="Back Button"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                </cq:styleGroups>
+                            </policy_1616059486639>
+                        </button>
+                    </v1>
+                </button>
+                <list jcr:primaryType="nt:unstructured">
+                    <v2 jcr:primaryType="nt:unstructured">
+                        <list jcr:primaryType="nt:unstructured">
+                            <policy_1616071160966
+                                jcr:lastModified="{Date}2021-04-01T15:17:57.651Z"
+                                jcr:lastModifiedBy="lena.mumenthaler@valtech.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="List Policy"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                disableChildren="false"
+                                disableSearch="false"
+                                disableStatic="false"
+                                disableTags="false"
+                                linkItems="false"
+                                showDescription="false"
+                                showModificationDate="false">
+                                <jcr:content
+                                    cq:lastReplicated="{Date}2021-04-12T12:24:33.768Z"
+                                    cq:lastReplicatedBy="helmut.minst@valtech.de"
+                                    cq:lastReplicationAction="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleGroupLabel="Variant"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="cmp-list--light"
+                                                cq:styleId="1616071171232"
+                                                cq:styleLabel="Light"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                </cq:styleGroups>
+                            </policy_1616071160966>
+                        </list>
+                    </v2>
+                </list>
+                <contentfragmentlist jcr:primaryType="nt:unstructured">
+                    <v1 jcr:primaryType="nt:unstructured">
+                        <contentfragmentlist jcr:primaryType="nt:unstructured">
+                            <policy_1616144712501
+                                jcr:lastModified="{Date}2021-03-19T14:42:50.337Z"
+                                jcr:lastModifiedBy="lena.mumenthaler@valtech.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Artist Page"
+                                sling:resourceType="wcm/core/components/policy/policy">
+                                <jcr:content
+                                    cq:lastReplicated="{Date}2021-04-12T12:24:07.668Z"
+                                    cq:lastReplicatedBy="helmut.minst@valtech.de"
+                                    cq:lastReplicationAction="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleGroupLabel="Appearance"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="cmp-contentfragmentlist--music-styles"
+                                                cq:styleId="1616144726190"
+                                                cq:styleLabel="Music Styles"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item1
+                                                cq:styleId="1616144758727"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                </cq:styleGroups>
+                            </policy_1616144712501>
+                        </contentfragmentlist>
+                    </v1>
+                </contentfragmentlist>
+            </components>
+        </wcm>
+    </core>
+    <cq jcr:primaryType="nt:unstructured">
+        <experience-fragments jcr:primaryType="nt:unstructured">
+            <components jcr:primaryType="nt:unstructured">
+                <xfpage jcr:primaryType="nt:unstructured">
+                    <policy_1617993456206
+                        jcr:lastModified="{Date}2021-04-09T18:42:14.695Z"
+                        jcr:lastModifiedBy="lena.mumenthaler@valtech.com"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="XF Layout"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        clientlibs="wknd.site">
+                        <jcr:content
+                            cq:lastReplicated="{Date}2021-04-12T12:33:45.136Z"
+                            cq:lastReplicatedBy="helmut.minst@valtech.de"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </policy_1617993456206>
+                </xfpage>
+            </components>
+        </experience-fragments>
+    </cq>
+</jcr:root>

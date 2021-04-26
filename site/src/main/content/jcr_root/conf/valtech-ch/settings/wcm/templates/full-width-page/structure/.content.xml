@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:lastModified="{Date}2021-03-03T09:41:56.526Z"
+        cq:lastModifiedBy="nicolas.hirrle@valtech.com"
+        cq:lastReplicated="{Date}2021-03-03T08:55:04.017Z"
+        cq:lastReplicatedBy="lena.mumenthaler@valtech.com"
+        cq:lastReplicationAction="Activate"
+        cq:template="/conf/valtech-ch/settings/wcm/templates/full-width-page"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:uuid="7a260016-498b-4d92-a300-2fe29682f866"
+        sling:resourceType="core/wcm/components/page/v2/page">
+        <root
+            jcr:lastModified="{Date}2021-03-03T08:53:05.645Z"
+            jcr:lastModifiedBy="lena.mumenthaler@valtech.com"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/container/v1/container"
+            id="parallax-wrapper"
+            layout="simple">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/container/v1/container"
+                editable="{Boolean}true"
+                layout="responsiveGrid"/>
+            <container_1682555376
+                jcr:created="{Date}2021-03-03T08:49:04.997Z"
+                jcr:createdBy="lena.mumenthaler@valtech.com"
+                jcr:lastModified="{Date}2021-03-03T08:49:04.997Z"
+                jcr:lastModifiedBy="lena.mumenthaler@valtech.com"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/container/v1/container"/>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}768"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>

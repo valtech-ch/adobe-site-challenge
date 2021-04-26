@@ -1,0 +1,6 @@
+      .cls-1 {
+        fill: none;
+        stroke: #f2efe9;
+        stroke-width: 4px;
+        fill-rule: evenodd;
+      }

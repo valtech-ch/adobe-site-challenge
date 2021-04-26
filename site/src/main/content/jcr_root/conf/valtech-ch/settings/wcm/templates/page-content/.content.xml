@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Template">
+    <jcr:content
+        cq:lastModified="{Date}2021-04-09T11:28:28.423Z"
+        cq:lastModifiedBy="lena.mumenthaler@valtech.com"
+        cq:lastReplicated="{Date}2021-03-19T09:04:45.511Z"
+        cq:lastReplicatedBy="jason.wilson@valtech.com"
+        cq:lastReplicationAction="Activate"
+        cq:templateType="/conf/valtech-ch/settings/wcm/template-types/page"
+        jcr:description="My Site Page Template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Content Page"
+        status="enabled"/>
+</jcr:root>

@@ -1,0 +1,12 @@
+      .a6db6115-bda8-4329-b497-b9fb0454c9b1 {
+        fill: #090909;
+      }
+      .bddea72f-4171-486a-a66b-ed0bdbe06f00 {
+        fill: url(#a8a30534-46db-447f-83f1-263058cc6d0a);
+      }
+      .e029b623-be60-432f-bc55-e0390dd43fa8 {
+        fill: url(#e2f81237-d782-40cd-a5f7-3b2f6f235756);
+      }
+      .b63870b4-8dac-4dfe-b86d-eff86dc60401 {
+        fill: url(#a3751a0d-e4e3-4fa1-ae35-3268682b2699);
+      }

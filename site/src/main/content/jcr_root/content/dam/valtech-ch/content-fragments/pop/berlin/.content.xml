@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="1633e04e-0756-4f47-bb53-36108b50d82e">
+    <jcr:content
+        cq:name="berlin"
+        cq:parentPath="/content/dam/valtech-ch/content-fragments/pop"
+        jcr:description=""
+        jcr:lastModified="{Date}2021-03-18T12:00:39.336Z"
+        jcr:lastModifiedBy="lena.mumenthaler@valtech.com"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Berlin"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2021-03-18T12:00:39.336Z">
+        <data
+            cq:model="/conf/valtech-ch/settings/dam/cfm/models/valtech-ch-music-styles"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                fieldLabel="Berlin"
+                fieldLabel_x0040_LastModified="{Date}2021-03-18T12:00:39.277Z"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
