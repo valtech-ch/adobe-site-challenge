@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.2
+Build-Jdk-Spec: 15
+Implementation-Title: The Festival_ Theme - Content Package
+Implementation-Version: 0.0.1-SNAPSHOT
+Content-Package-Type: content
+Content-Package-Id: ch.valtech.adobe-site-challenge:The Festival_ Theme 
+ - Content Package:0.0.1-SNAPSHOT
+Content-Package-Description: AEM site theme that can be used for festiva
+ l or other campaigns
+Content-Package-Roots: /conf/valtech-ch,/content/dam/valtech-ch,/content
+ /experience-fragments/valtech-ch,/content/valtech-ch
+
