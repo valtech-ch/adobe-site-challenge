@@ -4,6 +4,14 @@ We created a design and templates for a microsite/campaign page that can be easi
 Next to a homepage, a news page, detail page and content page we also included a dark mode content page. We heavily used style policies to make best use of the AEM core components.
 We have learned through this challenge that style policies are very powerful and that we can get pretty far without backend development. Furthermore, the collaboration between business/content team and frontend developers was intuitive and fast, making the lives of both disciplines easier.
 
+# Release
+
+Releases can be found here: [https://github.com/valtech-ch/adobe-site-challenge/releases](https://github.com/valtech-ch/adobe-site-challenge/releases)
+
 # How to develop
 
 [Instructions can be found here](/theme/README.md)
+
+# How to create a release
+
+Release can be done by running a github action 'Build and release Site Template'.
