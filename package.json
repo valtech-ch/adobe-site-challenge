@@ -9,7 +9,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@adobe/aem-site-template-builder": "^2.1.2",
+    "@adobe/aem-site-template-builder": "^2.3.1",
     "@adobe/aem-site-theme-builder": "4.0.1"
   },
   "siteTemplate": {
